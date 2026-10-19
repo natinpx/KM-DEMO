@@ -1,0 +1,396 @@
+import type { Translations } from '../types';
+
+export const ti: Translations = {
+  common: {
+    backToPackages: 'ናብ ኩሎም ፓኬጃት ተመለስ',
+    viewDetails: 'ዝርዝር ርአ',
+    explorePackage: 'ፓኬጅ ዳህስስ',
+    planYourDay: 'መዓልትኹም መደቡ',
+    viewAllPackages: 'ኩሎም ፓኬጃት ርአ',
+    startJourney: 'ናይ መርዓ ጉዕዞኹም ጀምሩ',
+    contactUs: 'ተወከሱና',
+    learnMore: 'ተወሳኺ ሓበሬታ',
+    close: 'ዕጾ',
+    all: 'ኩሉ',
+    events: 'ስነ-ስርዓታት',
+    options: 'ኣማራጺታት',
+    included: 'ዝተኻተቱ ኣገልግሎታት',
+    chooseEvents: '2 ስነ-ስርዓታት ምረጹ',
+    chooseOneEvent: '1 ስነ-ስርዓት ምረጹ',
+    dayOfCoordination: 'ናይ መርዓ መዓልቲ ጥራይ',
+  },
+  nav: {
+    home: 'ቀንዲ ገጽ',
+    packages: 'ፓኬጃት',
+    gallery: 'ስእልታት',
+    about: 'ብዛዕባና',
+    contact: 'ርክብ',
+    planDay: 'መዓልትኹም መደቡ',
+    selectLanguage: 'ቋንቋ ምረጹ',
+  },
+  hero: {
+    eyebrow: 'ናይ ኢትዮጵያ መርዓ ኣዳላዊ',
+    titleLine1: 'ባህልኹም፤',
+    titleLine2: 'ሞያና።',
+    subtitle:
+      'ካብ ባህላዊ ጽምብላት ክሳብ ዘመናዊ ናይ ፍቕሪ ዛንታታት፡ ኬኤም (KM) ሕልሚ መርዓኹም ብጥንቃቐ፡ ብምህዞን ንነፍሲ ወከፍ ዝርዝር ፍሉይ ኣቓልቦ ብምሃብን ኣብ ተግባር የውዕሎ።',
+    explorePackages: 'ፓኬጃት ዳህስሱ',
+    planYourDay: 'መዓልትኹም መደቡ',
+    culturalAccent: 'ንነፍሲ ወከፍ ናይ ፍቕሪ ዛንታ፡ ክቡር ባህላዊ ድግስ',
+  },
+  packagesSection: {
+    eyebrow: 'ፓኬጃትና',
+    titleLine1: 'ንዛንታኹም',
+    titleLine2: 'ዝተመጣጠነ',
+    description:
+      'ካብቶም ብጥንቃቐ ዝተዳለዉ ፓኬጃትና ምረጹ፡ ወይ ድማ ራእይኹም፡ ባህልኹምን ባጀትኩምን ዘገናዘበ ፍሉይ መደብ ነዳልወልኩም።',
+    viewAll: 'ኩሎም ፓኬጃት ርአ',
+    featured: 'ዝተመርጹ ፓኬጃት',
+    exploreMore: 'ምስ ባህልኹም ዝሰማማዕ ናይ መርዓ ምድላው ርኸቡ',
+  },
+  weddingTypes: {
+    eyebrow: 'ዓይነታት መርዓ',
+    titleLine1: 'ንኹሉ እምነትን',
+    titleLine2: 'ራእይን ዝበቅዕ',
+    description:
+      'ናይ ቤተ-ክርስቲያን ቡራኬ፡ ናይ ኒካሕ ስነ-ስርዓት ወይ ዘመናዊ መርዓ ይኹን፤ ኬኤም ክብሪ እምነትኩምን ባህልኹምን ሓልዩ ሕልምኹም ዘስተውዕል መርዓ የዳልወልኩም።',
+    cta: 'ኩሎም ፓኬጃት ርአ',
+  },
+  gallerySection: {
+    eyebrow: 'ስእልታት',
+    title: 'ዝቐረጽናዮም ዘይርሳዑ ህሞታት',
+    description:
+      'ዝተመረጹ ናይ መርዓ ጽምብላት ስብስብ — ነፍሲ ወከፉ ፍሉይ፡ ጽቡቕን ካብ ልቢ ዝፈልፈለ።',
+    viewFull: 'ምሉእ ስእልታት ርአ',
+  },
+  howItWorks: {
+    eyebrow: 'ኣሰራርሓና',
+    title: 'ኣርባዕተ ቀለልቲ ደረጃታት',
+    step1Title: 'ራእይኹም ኣካፍሉና',
+    step1Desc:
+      'ብዛዕባ ሕልሚ መርዓኹም ንገሩና — ባህልኹም፡ ምርጫታትኩምን ንዛንታኹም ፍሉይ ዝገብሮ ነገራትን ብምሉኡ ንቕበል።',
+    step2Title: 'ፓኬጅኩም ምረጹ',
+    step2Desc:
+      'ንጽምብልኩም ዝሰማማዕ ፓኬጅ ምረጹ፡ ወይ ድማ ምስ ድሌትኩምን ባጀትኩምን ዝተመጣጠነ መደብ ነዳልወልኩም።',
+    step3Title: 'ዝርዝራት ምድላው',
+    step3Desc:
+      'ምርጫ ቦታ፡ ጌጺ፡ ምግቢን ሓፈሻዊ ምውዳድን ንስኹም ኣብ ዘለኹምዎ ብጥንቃቐ ንመርሖ።',
+    step4Title: 'መዓልትኹም ብሓጎስ ኣሕልፉ',
+    step4Desc:
+      'ህድእ ኢልኩም ተሓጎሱ። ኣብታ ፍልይቲ መዓልትኹም ምሉእ ብምሉእ ምስ ስድራኹም ንኽትኮኑ ስራሓት ንሕና ንከታተሎ።',
+  },
+  finalCta: {
+    titleLine1: 'ትርጉም ዘለዎ መዓልቲ',
+    titleLine2: 'ብሓባር ንመድብ።',
+    description:
+      'ዝኾነ ናይ ፍቕሪ ዛንታ ንመንነቱ ዝገልጽ ድሙቕ በዓል ይግብኦ እዩ። ኬኤም ንዘልኣለም ዝዝከር መርዓ ንኽትገብሩ ይሕግዘኩም።',
+    button: 'ናይ መርዓ ጉዕዞኹም ጀምሩ',
+  },
+  categories: {
+    traditional: {
+      title: 'ባህላዊ መርዓ',
+      nativeTitle: 'ባህላዊ መርዓ',
+      shortDesc: 'ካብ ሽምግልና ክሳብ መልሲ — ነፍሲ ወከፍ ባህሊ ብኤርትራን ኢትዮጵያን ቅርስን ውበትን ኣኽብሩ።',
+      desc: 'ሓድነት መርዓኹም ብክቡራት ጥንታዊ ባህልታት ኣኽብሩ። ካብ ዝርርብ ሽምግልና ጀሚሩ ክሳብ ድሙቕ ናይ መልሲ ድግስ፡ ኬኤም ነፍሲ ወከፍ ልማድ ብጥንቃቐ፡ ብውበትን ብሓቀኛ ባህላዊ ትሕዝቶን ምኽባሩ የረጋግጽ።',
+      highlights: ['ስድራ', 'መሓዛ', 'ብጾት', 'ጋሻ'],
+    },
+    muslim: {
+      title: 'ናይ ሙስሊም መርዓ',
+      nativeTitle: 'ናይ ሙስሊም መርዓ',
+      shortDesc: 'ካብ ኒካሕ ክሳብ ሒና — እስላማዊ ልምድታት ብሞቕሳ ኣሰኒኹም ዘደንቕ መርዓ ኣዳልዉ።',
+      desc: 'ኬኤም እስላማዊ ስርዓታትን ባህላዊ ክብሪ ሙስሊም ስድራቤታትን ዘንጸባርቕ ውቁብ መርዓ የዳልወልኩም። ካብቲ ቅዱስ ኒካሕ ክሳብ ድሙቕ መርዓ፡ ነፍሲ ወከፍ ዝርዝር ብኽብርን ብጥንቃቐን ይፍጸም።',
+      highlights: ['ስድራ', 'መሓዛ', 'ብጾት', 'ጋሻ'],
+    },
+    christian: {
+      title: 'ናይ ክርስቲያን መርዓ',
+      nativeTitle: 'ናይ ክርስቲያን መርዓ',
+      shortDesc: 'ናይ እምነት ቅዱስ በዓል — ካብ ስርዓተ ቤተ-ክርስቲያን ክሳብ ድግስ ኣዳራሽ ብኽብሪ ዝተዳለወ።',
+      desc: 'ቅዱስ ኪዳንኩም ንእምነትኩም ዘንጸባርቕ ብዝኾነ መርዓ ኣኽብሩ። ኬኤም ናይ ቤተ-ክርስቲያን ስርዓታት፡ ናይ ኣዳራሽ ምድላዋትን ኩሉ ዝርዝራትን ብምውዳድ መንፈሳዊ ትርጉምን ውበትን ዘለዎ መርዓ የዳልወልኩም።',
+      highlights: ['ስርዓተ ቤተ-ክርስቲያን', 'ምድላው ኣዳራሽ', 'ጌጽን ዲኮርን', 'ስእልን ቪድዮን'],
+    },
+    modern: {
+      title: 'ዘመናዊ መርዓ',
+      nativeTitle: 'ዘመናዊ መርዓ',
+      shortDesc: 'ሓዲሽን ዘመናውን ናይ መርዓ ኣቀራርባ — ውቁብ፡ ግላውን ንዓኹም ጥራይ ዝተሰርሐ።',
+      desc: 'ብዘመናዊ ዲዛይንን ውበትን ፍሉይ ድግስ ንዝደልዩ መጻምዲ። ኬኤም ዘመናዊ ኣሰራርሓ ምስ ናይ ውልቀ ምርጫታትኩም ብምውህሃድ ንዓኹም ጥራይ ዝምጥን ዘደንቕ መርዓ የዳልወልኩም።',
+      highlights: ['ብጁ ሓሳባት', 'ውቁብ ዲኮር', 'ምሉእ ምውዳድ', 'ስእልን ቪድዮን'],
+    },
+    destination: {
+      title: 'ናይ መገሻ መርዓ',
+      nativeTitle: 'ናይ መገሻ መርዓ',
+      shortDesc: 'ኣብ ዝመረጽክምዎ ቦታ ቃል ኣእትዉ — ኬኤም ቦታ፡ ጉዕዞን ምድላዋትን ብምሉኡ ይገብሮ።',
+      desc: 'ኣብ ባህ ዘብል ተፈጥሮኣዊ ቦታ ቃል ኪዳን ክትኣትዉ ሓሊምኩም ዶ? ኬኤም ኣብ ውሽጢ ሃገር ይኹን ኣብ ወጻኢ ሃገራት መርዓታት የዳልወልኩም — ምርጫ ቦታ፡ መጓዓዝያን ምድላዋትን ብምሉኡ ይከናኸነልኩም።',
+      highlights: ['ውሽጥን ወጻእን ሃገር', 'መደብ ጉዕዞ', 'ምርጫ ቦታ', 'ኣብቲ ቦታ ምምሕዳር'],
+    },
+    civil: {
+      title: 'ናይ ሲቪል መርዓ',
+      nativeTitle: 'ናይ ሲቪል መርዓ',
+      shortDesc: 'ቀሊልን ውቁብን — ብጥንቃቐ ዝተዳለወ ናይ ሲቪል መርዓ ስነ-ስርዓት።',
+      desc: 'ቀሊል፡ ውቁብን ትርጉም ዘለዎን። ኬኤም ልክዕ ከም ዓበይቲ ድግሳት ንሲቪል መርዓታት እውን ፍሉይ ኣቓልቦ ይህብ። ናይ ውዕሊ ስነ-ስርዓት ይኹን ዝተወደበ ድግስ፡ ኣዝዩ ባህ ዘብል ንኽኸውን ንገብሮ።',
+      highlights: ['ስርዓተ ውዕሊ', 'ሕጋዊ ሓገዝ', 'ቀሊልን ውቁብን', 'ግላዊ መደብ'],
+    },
+    custom: {
+      title: 'ዝተዳለወ ፍሉይ መርዓ',
+      nativeTitle: 'ዝተዳለወ ፍሉይ መርዓ',
+      shortDesc: 'መርዓኹም ብምርጫኹም — ኣብ ራእይኹም ዝተመርኮሰ ምሉእ ብምሉእ ዝተዳለወ መደብ።',
+      desc: 'ክልተ ሓደ ዓይነት ናይ ፍቕሪ ዛንታታት የለውን። ኬኤም ንዓኹም ኣገደስቲ ዝኾኑ ኣገልግሎታት፡ ባህልታትን ዝርዝራትን እትመርጹሉ ምሉእ ብምሉእ ዝተዳለወ ናይ መርዓ መደብ የቕርበልኩም።',
+      highlights: ['ምሉእ ብምሉእ ዝተዳለወ', 'ምርጫ ዝተፈላለዩ ኣገልግሎታት', 'ዝኾነ ባህሊ', 'ተዓጻጻፊ ባጀት'],
+    },
+  },
+  packageTiers: {
+    beteseb: {
+      name: 'ስድራ',
+      englishName: 'Family Package',
+      descTraditional:
+        'ኩሉ ዘጠቓልል ባህላዊ ናይ መርዓ ፓኬጅ። ካብ ሽምግልና ክሳብ ድሕሪ መርዓ ዝካየዱ ስነ-ስርዓታት ኩሉ ዘጠቓለለ እዩ።',
+      descMuslim:
+        'ኩሉ ዘጠቓልል ናይ ሙስሊም መርዓ ፓኬጅ። ካብቲ ቅዱስ ኒካሕ ክሳብ ድሕሪ መርዓ ኩሉ ባህሊ ብጽቡቕ ንኽካየድ ይገብር።',
+    },
+    guad: {
+      name: 'መሓዛ',
+      englishName: 'Friend Package',
+      descTraditional:
+        'ንዝተመረጹ ናይ መርዓ ስነ-ስርዓታት ሞያዊ ሓገዝ ንዝደልዩ መጻምዲ ዝተዳለወ ተዓጻጻፊ ፓኬጅ። ንምድላውኩም ዝሰማማዕ ምረጹ።',
+      descMuslim:
+        'ንዝተመረጹ ናይ ሙስሊም መርዓ ስነ-ስርዓታት ዝተዳለወ ተዓጻጻፊ ፓኬጅ። ንምድላውኩም ዝሰማማዕ ምረጹ።',
+    },
+    abroAdeg: {
+      name: 'ብጾት',
+      englishName: 'Companion Package',
+      descTraditional:
+        'ሰለስተ ዓበይቲ ባህላዊ ናይ መርዓ ስነ-ስርዓታት ዘጠቓልል ምሉእ ፓኬጅ። ንቐንዲ ስነ-ስርዓታት ሞያዊ ምውዳድ ንዝደልዩ ዝምረጽ።',
+      descMuslim:
+        'ሰለስተ ዓበይቲ ናይ ሙስሊም መርዓ ስነ-ስርዓታት ዘጠቓልል ምሉእ ፓኬጅ። ንቐንዲ ስነ-ስርዓታት ሞያዊ ሓገዝ ይህብ።',
+    },
+    engda: {
+      name: 'ጋሻ',
+      englishName: 'Guest Package',
+      descTraditional:
+        'ንቐንዲ መዓልቲ መርዓ ጥራይ ዝተዳለወ ፍሉይ መደብ። ንመዓልቲ መርዓኦም ሞያዊ ምውዳድ ንዝደልዩ ፍጹም ዝሰማማዕ።',
+      descMuslim:
+        'ንቐንዲ መዓልቲ መርዓ ጥራይ ዝተዳለወ ፍሉይ መደብ። ንመዓልቲ መርዓኦም ውሑስ ምውዳድ ንዝደልዩ ዝምረጽ።',
+    },
+  },
+  events: {
+    shimgelina: {
+      name: 'ሽምግልና',
+      desc: 'ክቡራት ዓበይቲ ዓዲ ካብ ክልቲኦም ስድራቤት ተራኺቦም ብዛዕባ እቲ ሓድነት ዝዘራረቡሉን ዝሰማምዑሉን ወግዓዊ ስነ-ስርዓት።',
+    },
+    tloshi: {
+      name: 'ጥሎሽ',
+      desc: 'ኣብ መንጎ ክልቲኦም ስድራቤታት ዝግበር ባህላዊ ምልውዋጥ ህያባት፤ ክብሪ፡ ጽንዓትን ምትእስሳርን ዘርኢ ስነ-ስርዓት።',
+    },
+    bridalShower: {
+      name: 'ናይ መርዓት ድግስ',
+      desc: 'ናይ ቀረባ መሓዙትን ስድራቤትን ተኣኪቦም ንመርዓት ብምርቓ፡ ብህያባትን ብሓጎስን ዘኽብሩላ ናይ ቅድመ-መርዓ ድግስ።',
+    },
+    serg: {
+      name: 'መርዓ',
+      desc: 'ቀንዲ መዓልቲ መርዓ — ደርፊ፡ ሳዕስዒት፡ መኣዲን ምሉእ ሓጎስን ዝፈስሰሉ፡ እቶም መጻምዲ ኣብ ቅድሚ ሕብረተሰብ ዝኸብሩላ ዓባይ መዓልቲ።',
+    },
+    mels: {
+      name: 'መልሲ',
+      desc: 'ብወገን ስድራ ወዲ መርዓ ዝዳሎን ንመርዓት ናብ ሓዲሽ ስድራኣ ብኽብሪ ዝቕበሉላን ድሙቕ ድግስ።',
+    },
+    kilkil: {
+      name: 'ቅልቅል',
+      desc: 'ንክልቲኦም ስድራቤታት ዘቀራርብ ህድእ ብዝበለ መንፈስ ዝካየድ ናይ ድሕሪ መርዓ ምትእኽኻብ።',
+    },
+    nikah: {
+      name: 'ኒካሕ',
+      desc: 'መንፈሳዊ መሰረት መርዓ ዝኾነ ቅዱስ ናይ እስልምና ቃል ኪዳን ስነ-ስርዓት ብዱዓዕን ብቡራኬን ዝፍጸመሉ ስርዓት።',
+    },
+    henna: {
+      name: 'መዓልቲ ሒና',
+      desc: 'ኣእዳውን ኣእጋርን መርዓት ብጽቡቕ ቅርጽታት ሒና ዝስለመሉ፡ ብደርፍን ሓጎስን ዝደምቕ ናይ ቅድመ-መርዓ ምድላው።',
+    },
+  },
+  servicesList: {
+    'Church ceremony coordination': 'ስርዓተ ቤተ-ክርስቲያን ምውዳድ',
+    'Reception planning and management': 'ምድላውን ምምሕዳርን ኣዳራሽ',
+    'Venue selection and booking': 'ምርጫ ቦታን ምዝገባን',
+    'Décor and floral design': 'ዲዛይን ዕምባባን ጌጽ ኣዳራሽን',
+    'Photography and videography coordination': 'ምውዳድ ሰብ ሞያ ስእልን ቪድዮን',
+    'Music and entertainment': 'ምድላው ሙዚቃን መዘናግዕን',
+    'Catering coordination': 'ቁጽጽር ኣገልግሎት መግብን መስተን',
+    'Wedding party coordination': 'ምውዳድ ሚዜታትን ስድራቤትን',
+    'Timeline and logistics management': 'ምምሕዳር ሰዓታትን ሎጂስቲክስን',
+    'Day-of coordination': 'ኣብ መዓልቲ መርዓ ዝግበር ምሉእ ምክትታል',
+    'Custom theme and concept development': 'ብጁ ናይ ዲዛይንን ሓሳብን ምድላው',
+    'Styling and décor coordination': 'ምውዳድ ዲኮርን ስታይልን',
+    'Venue planning and selection': 'ምድላውን ምርጫን ቦታ',
+    'Entertainment and music coordination': 'ምምሕዳር ሙዚቃን መዘናግዕን',
+    'Catering and menu design': 'ዲዛይን ዝርዝር መግብን ቁጽጽርን',
+    'Floral design and arrangements': 'ምድላውን ውደባን ዕምባባታት',
+    'Guest management and RSVPs': 'ኣቀባብላን ምምሕዳርን ኣጋይሽ',
+    'Timeline and logistics': 'መደብ ግዜን ሎጂስቲክስን',
+    'Local and international destination planning': 'ናይ ውሽጥን ወጻእን ሃገር ናይ ጉዕዞ መደብ',
+    'Destination and venue selection': 'ምርጫ ቦታ መገሻን ሆቴልን',
+    'Travel and accommodation coordination': 'ምውዳድ ጉዕዞን መዕረፊ ኣጋይሽን',
+    'Guest coordination and logistics': 'ምክትታል መስተንግዶ ኣጋይሽን ጉዕዞን',
+    'Event scheduling and timeline': 'ናይ ስነ-ስርዓታት መደብ ግዜ',
+    'Décor and styling for the venue': 'ንዝተመረጸ ቦታ ዝሰማማዕ ዲኮር',
+    'Personalized consultations': 'ቀጻሊ ናይ ውልቀ ምኽሪ',
+    'Vendor sourcing at destination': 'ኣብቲ ዝኸድዎ ቦታ ኣገልግሎት ወሃብቲ ምድላይ',
+    'Day-of on-site coordination': 'ኣብቲ ቦታ ዝግበር ናይታ መዓልቲ ምክትታል',
+    'Post-wedding celebration planning': 'ናይ ድሕሪ መርዓ ምዝንጋዕ ምድላዋት',
+    'Civil ceremony planning and coordination': 'ናይ ሲቪል መርዓ ስነ-ስርዓት መደብን ምውዳድን',
+    'Registry ceremony coordination': 'ምውዳድ ምዝገባ ውዕሊ',
+    'Venue selection for the ceremony': 'ንተግባር ስነ-ስርዓት ዝኸውን ቦታ ምምራጽ',
+    'Simple and elegant décor': 'ቀሊልን ውቁብን ዲኮር',
+    'Photography coordination': 'ምውዳድ ኣገልግሎት ስእሊ',
+    'Optional reception planning': 'ናይ ምሳሕ/ድራር ድግስ መደብ',
+    'Personalized planning consultations': 'ግላዊ ናይ ምድላው ምኽሪ',
+    'Guest management': 'ምምሕዳር ኣጋይሽ',
+    'Personalized service selection': 'ዝተመረጹ ኣገልግሎታት ስብስብ',
+    'Multi-tradition and multicultural planning': 'ውህደት ዝተፈላለዩ ባህልታት መደብ',
+    'Custom event design and concept': 'ፍሉይ ናይ ስነ-ስርዓት ዲዛይን',
+    'Flexible budget planning': 'ተዓጻጻፊ ምምዳብ ባጀት',
+    'Vendor coordination': 'ምውዳድ ኣገልግሎት ወሃብቲ',
+    'Décor, floral, and styling': 'ዲኮር፡ ዕምባባን ዲዛይንን',
+    'Photography and videography': 'ስእልን ቪድዮግራፊን',
+    'Catering and entertainment': 'መግቢ፡ መስተን መዘናግዕን',
+    'Full or partial planning options': 'ምሉእ ወይ ከፊላዊ ናይ ምድላው ኣማራጺታት',
+  },
+  inquiryForm: {
+    pageTitle: 'ናይ መርዓ መዓልትኹም መደቡ',
+    pageSubtitle:
+      'ብዛዕባ ራእይ መርዓኹም ንገሩና፤ ብዝርዝር ሓሳባት፡ ናይ ፓኬጅ ኣማራጺታትን ቀጺሉ ዝግበሩ ስጉምትታትን ቀልጢፍና ክንረኽበኩም ኢና።',
+    coupleNames: 'ስማት መጻምዲ',
+    coupleNamesPlaceholder: 'ንኣብነት፡ ኣልማዝን ዳዊትን',
+    email: 'ኢመይል ኣድራሻ',
+    emailPlaceholder: 'your.email@example.com',
+    phone: 'ቁጽሪ ተሌፎን',
+    phonePlaceholder: '+251 ... ወይ ቁጽሪ ተሌፎንኩም',
+    weddingCategory: 'ዓይነት መርዓ',
+    selectCategory: 'ዓይነት መርዓ ምረጹ',
+    preferredPackage: 'ዝመረጽክምዎ ፓኬጅ',
+    selectPackage: 'ፓኬጅ ወይ ዓይነት መደብ ምረጹ',
+    weddingDate: 'ዝተሓሰበ መዓልቲ መርዓ',
+    cityOrVenue: 'ከተማ ወይ ዝተመረጸ ኣዳራሽ',
+    cityOrVenuePlaceholder: 'ንኣብነት፡ ኣዲስ ኣበባ፡ ቢሾፍቱ፡ ወይ ወጻኢ ሃገር',
+    estimatedGuests: 'ግምታዊ ቁጽሪ ኣጋይሽ',
+    selectGuests: 'ቁጽሪ ኣጋይሽ ምረጹ',
+    eventsSupport: 'ሓገዝ ዘድልየኩም ስነ-ስርዓታት',
+    budgetRange: 'ግምታዊ መጠን ባጀት',
+    selectBudget: 'መጠን ባጀት ምረጹ',
+    preferredContactMethod: 'ምርጫ መራኸቢ',
+    selectContactMethod: 'ብኸመይ ንራኸብ ምረጹ',
+    additionalNotes: 'ተወሳኺ መዘኻኸርን ራእይኹምን',
+    additionalNotesPlaceholder:
+      'ብዛዕባ ባህላዊ ልምድታትኩም፡ እትፈትውዎ ስታይል፡ ምርጫ ኣዳራሽኩም ወይ ዘለኩም ሕቶታት ንገሩና...',
+    submitButton: 'ሕቶ መርዓ ስደዱ',
+    submittingButton: 'ሕቶኹም ይስደድ ኣሎ...',
+    demoNotice: 'ናይ ፈተነ ሁነታ፡ ሓበሬታታት ኣብ ብራውዘርኩም ይዕቀብ። ምሉእ ዝርዝር ኣብ README ርኣዩ።',
+    successTitle: 'የቐንየልና!',
+    successMessage:
+      'ሕቶ መርዓኹም በጺሑና ኣሎ። ነታ ፍልይቲ መዓልትኹም ምድላው ንምጅማር ኣብ ቀረባ ክንረኽበኩም ኢና።',
+    demoNote:
+      'እዚ ሓበሬታ ኣብ ኮምፒተርኩም ተዓቒቡ ኣሎ። ናይ ሓቂ ኢመይል ንምቕባል ናይ ኢመይል ኣገልግሎት ኣተኣሳስሩ።',
+    submitAnother: 'ካልእ ሕቶ ስደዱ',
+    errors: {
+      coupleNames: 'በጃኹም ስምኩም ኣእትዉ',
+      email: 'በጃኹም ኢመይልኩም ኣእትዉ',
+      emailValid: 'በጃኹም ቅኑዕ ናይ ኢመይል ኣድራሻ ኣእትዉ',
+      phone: 'በጃኹም ቁጽሪ ተሌፎንኩም ኣእትዉ',
+      category: 'በጃኹም ዓይነት መርዓ ምረጹ',
+      contactMethod: 'በጃኹም መራኸቢ መንገዲ ምረጹ',
+      general: 'ጌጋ ተፈጢሩ። በጃኹም ደጊምኩም ፈትኑ ወይ ብቐጥታ ተወከሱና።',
+    },
+    budgets: {
+      notSure: 'ገና ኣይተወሰነን',
+      under50k: 'ትሕቲ 50,000 ብር',
+      range50_100k: '50,000 – 100,000 ብር',
+      range100_250k: '100,000 – 250,000 ብር',
+      range250_500k: '250,000 – 500,000 ብር',
+      above500k: '500,000+ ብር',
+      preferNotToSay: 'ክገልጽ ኣይደልን',
+    },
+    guests: {
+      notSure: 'ገና ኣይተወሰነን',
+      under50: 'ትሕቲ 50 ኣጋይሽ',
+      range50_100: '50 – 100 ኣጋይሽ',
+      range100_200: '100 – 200 ኣጋይሽ',
+      range200_500: '200 – 500 ኣጋይሽ',
+      above500: '500+ ኣጋይሽ',
+    },
+    contactMethods: {
+      email: 'ኢመይል',
+      phone: 'ናይ ተሌፎን ጻውዒት',
+      whatsapp: 'ዋትስኣፕ (WhatsApp)',
+    },
+  },
+  aboutPage: {
+    eyebrow: 'ዛንታና',
+    title: 'ኣብ ባህሊ ዝጸንዐ፤ ንዘመኑ ዝተዋበ።',
+    subtitle:
+      'ኬኤም (KM) ባህሊ፡ ምትእስሳርን ምውህሃድ ክልተ ስድራቤታትን ንምኽባር ዝቖመ ናይ መርዓ ምድላው ብራንድ እዩ።',
+    storyTitle: 'ናይ ኬኤም ዛንታ',
+    storyP1:
+      'ናይ ኢትዮጵያን ኤርትራን መርዓ ካብ ሓደ ስነ-ስርዓት ንላዕሊ እዩ — ንመዓልታት ዝጸንሕ ምርቓ፡ ስምምዕ ሽምግልና፡ ሓጎስ ሕብረተሰብን ናይ ወለዲ ወግዕን ድምር እዩ። ነዚ ምድላው ምምሕዳራዊ ቅልጣፈ ጥራይ ዘይኮነስ፡ ዓሚቕ ባህላዊ ኣፍልጦን ንነፍሲ ወከፍ ስርዓት ካብ ልቢ ዝፈልፈለ ኣኽብሮትን ይሓትት።',
+    storyP2:
+      'ኬኤም ነቲ ክቡር ባህሊ ምስ ዘመናዊ ኣደራራጅባ ንምውህሃድ ዝተመስረተ እዩ። ኣብ ኣዲስ ኣበባ ዝካየድ ናይ ሽዱሽተ ስነ-ስርዓታት ድግስ ይኹን፡ ኣብ ወጻኢ ሃገር ዝግበር ናይ ቤተ-ክርስቲያን ቡራኬ ወይ ናይ መገሻ መርዓ፡ ንሕና ህድኣት፡ ምህዞን ብሉጽ ኣፈጻጽማን ነምጽእ።',
+    valuesTitle: 'መለለዪ መትከልና',
+    value1Title: 'ባህላዊ ሓቅነት',
+    value1Desc:
+      'ናይ ነፍሲ ወከፍ ሕብረተሰብ ቅዱስ ስነ-ስርዓታት፡ ባህላዊ ክዳውንቲ፡ ደርፍታትን ልምድታትን ብልዑል ክብርን ኩርዓትን ነኽብር።',
+    value2Title: 'ውቁብ ዲዛይን',
+    value2Desc:
+      'ነፍሲ ወከፍ መርዓ ብዝበለጸ ውበት፡ ብዝተሰማምዑ ሕብርታትን ንናይ ፍቕሪ ዛንታኹም ብዝገልጹ ዝርዝራትን ይዳሎ።',
+    value3Title: 'ናይ ኣእምሮ ቅሳነት',
+    value3Desc:
+      'ካብ ዝተሓላለኸ ውደባ ሽምግልና ጀሚሩ ክሳብ ናይታ መዓልቲ ፍጹም ኣፈጻጽማ፡ ንስኹምን ስድራኹምን ብነጻነት ክትሕጎሱ ጭንቀት ንሕና ንወስዶ።',
+    statsTitle: 'ብኣሃዝ ክግለጽ ከሎ',
+    stat1Label: 'ዝኸበሩ ባህላዊ ወግዕታት',
+    stat2Label: 'ዝተዳለዉ ፍሉያት ፓኬጃት',
+    stat3Label: 'ምሉእ ሞያዊ ክንክን',
+  },
+  contactPage: {
+    eyebrow: 'ተወከሱና',
+    title: 'ናይ መርዓኹም መደብ ብሓባር ንጀምር',
+    subtitle:
+      'ብዛዕባ ፓኬጃት፡ ባህልታት ወይ ብጁ መደብ ሕቶታት እንተለኩም ኣብ ነፍሲ ወከፍ ደረጃ ክንመርሓኩም ድሉዋት ኢና።',
+    infoTitle: 'ናይ ርክብ ሓበሬታ',
+    infoDesc: 'ዝርርብ ንምጅማር ንጕጅለ ምድላውና ተወከሱ።',
+    phoneLabel: 'ተሌፎንን ዋትስኣፕን',
+    emailLabel: 'ኢመይል',
+    locationLabel: 'ኣድራሻ',
+    locationValue: 'ኣዲስ ኣበባ፡ ኢትዮጵያን ኣብ መላእ ዓለምን',
+    hoursLabel: 'ናይ ምኽሪ ሰዓታት',
+    hoursValue: 'ካብ ሰኑይ – ቀዳም፡ ካብ ንግሆ 9:00 – ምሸት 6:00 (EAT)',
+    faqTitle: 'ተደጋጊሞም ዝሕተቱ ሕቶታት',
+    faq1Q: 'ንመርዓና ቅድሚ ክንደይ እዋን ንኬኤም ክንረኽቦ ኣለና?',
+    faq1A:
+      'ብፍላይ ንባህላዊ ወይ ኣብ ጽዑቕ ናይ መርዓ እዋን ካብ 6 ክሳብ 12 ኣዋርሕ ኣቐዲምኩም ክትረኽቡና ንመክር። እንተኾነ ኣብ ሓጺር እዋን ዝግበሩ መርዓታት እውን ከም ኩነታቱ ነአንግድ ኢና።',
+    faq2Q: 'ኬኤም ኣብ ወጻኢ ሃገር ንዝነብሩ መርዓ የዳልው ድዩ?',
+    faq2A:
+      'እወ፡ ብርግጽ! መብዛሕትኦም ዓማዊልና ኣብ ሰሜን ኣመሪካ፡ ኤውሮጳን ማእከላይ ምብራቕን ዝነብሩ ኮይኖም ናብ ዓዲ መጺኦም ዘመርዕዉ ወይ ኣብ ዝመረጽዎ ሃገር ዘብዕሉ እዮም።',
+    faq3Q: 'ድሌትና ካብቲ ልሙድ ፓኬጅ ፍሉይ እንተኾይኑ ክነመዓራርዮ ንኽእል ዶ?',
+    faq3A:
+      'እወ። ፍሉይ ናይ መርዓ መደብ ኣማራጺና ምስ ራእይኹምን ባጀትኩምን ዝሰማማዕ ስነ-ስርዓታት፡ ኣገልግሎታትን ምውዳድን ብልክዕ ንኽትመርጹ የኽእለኩም።',
+    faq4Q: 'ከም ኒካሕ ወይ ናይ ቤተ-ክርስቲያን ቡራኬ ዝኣመሰሉ ሃይማኖታዊ ስርዓታት ተተሓባብሩ ዶ?',
+    faq4A:
+      'እወ። ንኦርቶዶክስ፡ ፕሮቴስታንት፡ ካቶሊክን እስልምናን መርዓታት ምስ ናይ ሃይማኖት መራሕትን ዓበይቲ ዓድን ብምትሕብባር ምሉእ ናይ ምውዳድ ተመክሮ ኣለና።',
+  },
+  galleryPage: {
+    eyebrow: 'ስራሕትና',
+    title: 'ናይ መርዓ ስእልታት ስብስብ',
+    subtitle:
+      'ባህላዊ ስነ-ስርዓታት፡ ውቁብ ዲኮርን ዘዳለናዮም ዘይርሳዑ ናይ ሓጎስ ህሞታትን ኣብዚ ርኣዩ።',
+  },
+  notFound: {
+    title: 'ገጽ ኣይተረኽበን',
+    message: 'እቲ ዝደለኽምዎ ገጽ ኣይተረኽበን ወይ ናብ ካልእ ቦታ ተቐይሩ።',
+    button: 'ናብ ቀንዲ ገጽ ተመለሱ',
+  },
+  footer: {
+    tagline1: 'ካብ ኣዳላዊ ንላዕሊ፤',
+    tagline2: 'ናይ ዛንታኹም መሻርኽቲ ኢና።',
+    navigation: 'ገጻት',
+    packages: 'ፓኬጃት',
+    getInTouch: 'ርክብ',
+    contactUs: 'ተወከሱና',
+    planYourWedding: 'መርዓኹም መደቡ',
+    allRightsReserved: 'ኬኤም ናይ መርዓ ኣዳላዊ። ኩሉ መሰላት ሕጉስ እዩ።',
+  },
+};

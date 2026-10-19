@@ -1,0 +1,396 @@
+import type { Translations } from '../types';
+
+export const om: Translations = {
+  common: {
+    backToPackages: 'Gara Paakeejii Hundaatti Deebi’aa',
+    viewDetails: 'Bal’ina Isaanii Ilaalaa',
+    explorePackage: 'Paakeejii Qoradhaa',
+    planYourDay: 'Guyyaa Keessan Karoorsaa',
+    viewAllPackages: 'Paakeejii Hunda Ilaalaa',
+    startJourney: 'Imala Cidha Keessanii Jalqabaa',
+    contactUs: 'Nu Qunnamaa',
+    learnMore: 'Dabalata Baradhaa',
+    close: 'Cufaa',
+    all: 'Hunda',
+    events: 'sagantaalee',
+    options: 'Filannoowwan',
+    included: 'Tajaajiloota Hammataman',
+    chooseEvents: 'Sagantaa 2 filadhaa',
+    chooseOneEvent: 'Sagantaa 1 filadhaa',
+    dayOfCoordination: 'Guyyaa cidhaa qofa',
+  },
+  nav: {
+    home: 'Fuula Duraa',
+    packages: 'Paakeejii',
+    gallery: 'Suuraalee',
+    about: 'Waa’ee Keenya',
+    contact: 'Qunnamsiisa',
+    planDay: 'Guyyaa Keessan Karoorsaa',
+    selectLanguage: 'Afaan Filadhaa',
+  },
+  hero: {
+    eyebrow: 'Qopheessaa Cidha Itoophiyaa',
+    titleLine1: 'Aadaa Keessan;',
+    titleLine2: 'Ogummaa Keenya.',
+    subtitle:
+      'Ayyaana aadaa irraa kaasee hanga seenaa jaalala ammayyaatti, KM abjuu cidha keessanii of eeggannoo, kalaqa fi xiyyeeffannoo guutuudhaan dhugoomsa.',
+    explorePackages: 'Paakeejiiwwan Qoradhaa',
+    planYourDay: 'Guyyaa Keessan Karoorsaa',
+    culturalAccent: 'Seenaa jaalala hundaaf, ayyaana aadaa ulfaataa',
+  },
+  packagesSection: {
+    eyebrow: 'Paakeejiiwwan Keenya',
+    titleLine1: 'Seenaa Keessaniif',
+    titleLine2: 'Kan Qophaa’e',
+    description:
+      'Paakeejiiwwan keenya of eeggannoodhaan qophaa’an keessaa filadhaa, yookiin mul’ata, aadaa fi baajata keessan irratti hundaa’uun karoora addaa isiniif haa qopheessinu.',
+    viewAll: 'Paakeejii Hunda Ilaalaa',
+    featured: 'Paakeejii Filatamaa',
+    exploreMore: 'Qophii cidhaa aadaa keessan wajjin walsimu qoradhaa',
+  },
+  weddingTypes: {
+    eyebrow: 'Gosa Cidhaa',
+    titleLine1: 'Amantii fi Mul’ata',
+    titleLine2: 'Hundaaf Kan Ta’u',
+    description:
+      'Eebba mana sagadaa, sirna nikaahaa, yookiin ayyaana ammayyaa yoo ta’ellee; KM ulfina amantii fi aadaa keessanii eeguun abjuu cidha keessanii dhugoomsa.',
+    cta: 'Paakeejii Hunda Ilaalaa',
+  },
+  gallerySection: {
+    eyebrow: 'Suuraalee',
+    title: 'Yeroowwan Hin Dagatamne Qabannee',
+    description:
+      'Qindeessa ayyaana cidha filatamoo — tokkoon tokkoon isaanii adda, miidhagaa fi garaa irraa kan madfe.',
+    viewFull: 'Suuraalee Guutuu Ilaalaa',
+  },
+  howItWorks: {
+    eyebrow: 'Akkaataa Hojii Keenyaa',
+    title: 'Tarkaanfiiwwan Salphaa Afur',
+    step1Title: 'Mul’ata Keessan Nuuf Qoodaa',
+    step1Desc:
+      'Waa’ee cidha abjuu keessanii nutti himaa — aadaa, filannoo fi wantoota seenaa jaalala keessanii adda taasisan hunda ni simanna.',
+    step2Title: 'Paakeejii Keessan Filadhaa',
+    step2Desc:
+      'Ayyaana keessaniif kan ta’u paakeejii filadhaa, yookiin fedhii fi baajata keessan irratti hundaa’uun karoora addaa qopheessina.',
+    step3Title: 'Bal’ina Hunda Karoorsuu',
+    step3Desc:
+      'Bakka filachuu, miidhagina, nyaataa fi qindeessa waligalaa of eeggannoodhaan isin hirmaachisaa geggeessina.',
+    step4Title: 'Guyyaa Keessan Gammachuun Dabarsaa',
+    step4Desc:
+      'Boqonnaadhaan gammadaa. Guyyaa keessan isa guddaa irratti maatii keessan wajjin akka taataniif hojii hunda nutu qabata.',
+  },
+  finalCta: {
+    titleLine1: 'Guyyaa Hiika Qabu',
+    titleLine2: 'Waliin Haakaroorsinu.',
+    description:
+      'Seenaan jaalala kamiyyuu ayyaana eenyummaa isaa calaqqisiisuu fi bareedaa ta’e qabaachuu qaba. KM cidha yeroo hunda yaadatamu akka qopheessitan isin gargaara.',
+    button: 'Imala Cidha Keessanii Jalqabaa',
+  },
+  categories: {
+    traditional: {
+      title: 'Fuudhaa fi Heeruma Aadaa',
+      nativeTitle: 'የተለመደ ሰርግ',
+      shortDesc: 'Jaarsummaa irraa hanga deebiitti — aadaa hunda seenaa fi duudhaa Itoophiyaatiin kabajaa.',
+      desc: 'Tokkummaa gaa’ela keessanii duudhaa aadaa durii Itoophiyaatiin kabajaa. Marii jaarsummaa irraa kaasee hanga ayyaana deebii guddaatti, KM tokkoon tokkoon aadaa of eeggannoo, miidhagina fi qulqullina aadaatiin kabajamuu isaa mirkaneessa.',
+      highlights: ['Maatii', 'Hiriyaa', 'Hiriyoota Dhalootaa', 'Keessummaa'],
+    },
+    muslim: {
+      title: 'Fuudhaa fi Heeruma Islaamaa',
+      nativeTitle: 'የሙስሊም ሰርግ',
+      shortDesc: 'Nikaahaa hanga hinaatti — duudhaalee Islaamaa kabajaa fi ho’ina aadaatiin karoorsaa.',
+      desc: 'KM ayyaana cidha Islaamaa duudhaalee amantii kabajuu fi aadaa maatii Musliimaa calaqqisiisu miidhagsee qopheessa. Nikaaha qulqulluu irraa hanga cidha guddaatti, bal’inni hundi kabajaa fi of eeggannoodhaan raawwatama.',
+      highlights: ['Maatii', 'Hiriyaa', 'Hiriyoota Dhalootaa', 'Keessummaa'],
+    },
+    christian: {
+      title: 'Fuudhaa fi Heeruma Kiristaanaa',
+      nativeTitle: 'የክርስቲያን ሰርግ',
+      shortDesc: 'Ayyaana amantii qulqulluu — sirna bataskaanaa irraa hanga galmaatti kabajaan kan qophaa’e.',
+      desc: 'Kakuu gaa’ela qulqulluu keessanii amantii fi aadaa keessan wajjin kabajaa. KM sirna bataskaanaa, qophii galmaa fi bal’ina hunda qindeessuudhaan cidha hiika hafuuraa fi miidhagina qabu qopheessa.',
+      highlights: ['Sirna Bataskaanaa', 'Qophii Galmaa', 'Miidhagina & Diikoorii', 'Suuraa & Viidiyoo'],
+    },
+    modern: {
+      title: 'Fuudhaa fi Heeruma Ammayyaa',
+      nativeTitle: 'ዘመናዊ ሰርግ',
+      shortDesc: 'Adeemsa qophii cidha ammayyaa fi haarawa — miidhagaa, dhuunfaa fi kan keessan qofa.',
+      desc: 'Jaalalleewwan ayyaana ammayyaa fi miidhagina qabu barbaadaniif. KM qulqullina ammayyaa fedhii dhuunfaa keessan wajjin walitti fiduun cidha adda ta’e isiniif qopheessa.',
+      highlights: ['Yaada Addaa', 'Diikoorii Bareedaa', 'Qindeessa Guutuu', 'Suuraa & Viidiyoo'],
+    },
+    destination: {
+      title: 'Fuudhaa fi Heeruma Bakka Filatamaa',
+      nativeTitle: 'የመድረሻ ሰርግ',
+      shortDesc: 'Bakka barbaaddanitti kakuu seenaa — KM bakka, imalaa fi bal’ina hundumaa qabata.',
+      desc: 'Bakka uumamaa bareedaa irratti kakuu jaalalaa seenuu abjoottanii? KM Itoophiyaa keessattis ta’ee biyya alatti cidha iddoo filatamaa qopheessa — filannoo bakkaa, imalaa fi qindeessa guutuu ni dhiyeessa.',
+      highlights: ['Biyya Keessaa & Alaa', 'Karoora Imalaa', 'Filannoo Bakkaa', 'Bakka Sanatti Hoggansa'],
+    },
+    civil: {
+      title: 'Fuudhaa fi Heeruma Siivilii',
+      nativeTitle: 'የሲቪል ሰርግ',
+      shortDesc: 'Salphaa fi miidhagaa — sirna gaa’ela siivilii of eeggannoodhaan qophaa’e.',
+      desc: 'Salphaa, miidhagaa fi hiika qabu. KM akkuma ayyaanota gurguddoo cidha siiviliitiifis xiyyeeffannoo addaa kenna. Sirna kakuu seeraa ta’us yookiin ayyaana galmaa, baay’ee gammachiisaa akka ta’u goona.',
+      highlights: ['Sirna Galmee', 'Gargaarsa Seeraa', 'Salphaa & Miidhagaa', 'Karoora Dhuunfaa'],
+    },
+    custom: {
+      title: 'Qophii Fuudhaa fi Heerumaa Addaa',
+      nativeTitle: 'ብጁ ሰርግ ዕቅድ',
+      shortDesc: 'Cidha keessan akka filannoo keessaniitti — karoora guutuu mul’ata keessan irratti ijaarame.',
+      desc: 'Seenaan jaalala lama wal fakkaatu hin jiru. KM tajaajiloota, aadaalee fi bal’inoota isiniif barbaachisoo ta’an filattanii karoora cidhaa addaa guutummaatti isiniif dhiyeessa.',
+      highlights: ['Guutummaatti Adda', 'Filannoo Tajaajilaa', 'Aadaa Kamiyyuu', 'Baajata Mijataa'],
+    },
+  },
+  packageTiers: {
+    beteseb: {
+      name: 'Maatii',
+      englishName: 'Family Package',
+      descTraditional:
+        'Paakeejii cidha aadaa isa bal’aa fi guutuu. Jaarsummaa irraa kaasee hanga ayyaanota booda cidhaatti sadarkaalee hunda qabata.',
+      descMuslim:
+        'Paakeejii cidha Islaamaa isa guutuu. Sirna nikaahaa qulqulluu irraa hanga ayyaana deebiitti aadaa hunda akka qophaa’u taasisa.',
+    },
+    guad: {
+      name: 'Hiriyaa',
+      englishName: 'Friend Package',
+      descTraditional:
+        'Jaalalleewwan sagantaalee filatamoodhaaf qindeessa ogummaa barbaadaniif paakeejii mijataa. Sagantaa isiniif ta’u filadhaa.',
+      descMuslim:
+        'Jaalalleewwan sagantaalee cidha Islaamaa filatamoodhaaf qindeessa ogummaa barbaadaniif paakeejii mijataa.',
+    },
+    abroAdeg: {
+      name: 'Hiriyoota Dhalootaa',
+      englishName: 'Companion Package',
+      descTraditional:
+        'Sagantaalee aadaa sadii gurguddoo kan hammatu paakeejii guutuu. Sirna murteessoodhaaf qindeessa ogummaa kennina.',
+      descMuslim:
+        'Sagantaalee sadii gurguddoo cidha Islaamaa kan hammatu paakeejii guutuu. Sirnoota ijoodhaaf gargaarsa ogummaa dhiyeessa.',
+    },
+    engda: {
+      name: 'Keessummaa',
+      englishName: 'Guest Package',
+      descTraditional:
+        'Guyyaa cidhaa isa guddaa qofaaf kan qophaa’e. Guyyaa ayyaanaa isaaniitiif qindeessa ogummaa barbaadaniif kan ta’u.',
+      descMuslim:
+        'Guyyaa cidha guddaa qofaaf kan qophaa’e qindeessa ogummaa. Guyyaa qophii isaaniitiif gargaarsa amansiisaa barbaadaniif.',
+    },
+  },
+  events: {
+    shimgelina: {
+      name: 'Jaarsummaa',
+      desc: 'Jaarsoliin kabajamoo maatii lachuu wal arguun waa’ee tokkummaa kan mari’atanii fi itti waliigalan sirna aadaa ulfaataa.',
+    },
+    tloshi: {
+      name: 'Gabbara',
+      desc: 'Kennaa aadaa maatii lachuu gidduutti waljijjiiramu; kabajaa, kakuu fi tokkummaa maatii agarsiisa.',
+    },
+    bridalShower: {
+      name: 'Ayyaana Misirroo',
+      desc: 'Hiriyoonni dhiyoo fi maatiin walitti qabamuun eebba, kennaa fi gammachuudhaan misirroo kan kabajan ayyaana dursaa.',
+    },
+    serg: {
+      name: 'Cidha (Guyyaa Guddaa)',
+      desc: 'Guyyaa cidha guddaa — muuziqaa, shubbisa, nyaata fi gammachuu guutuun misirroon hawaasa duratti kan kabajaman.',
+    },
+    mels: {
+      name: 'Deebii',
+      desc: 'Maatii dhirsaan kan qophaa’uu fi misirroo gara maatii haarawaatti kabajaan kan simatan ayyaana ho’aa.',
+    },
+    kilkil: {
+      name: 'Qilqila',
+      desc: 'Maatii lachuu caalaatti walitti fiduuf boqonnaadhaan kan geggeeffamu walitti qabama gammachuu boodaa.',
+    },
+    nikah: {
+      name: 'Nikaaha',
+      desc: 'Bu’uura hafuuraa cidhaa kan ta’e kakuu gaa’ela Islaamaa du’aa’ii fi eebbaan kan raawwatamu.',
+    },
+    henna: {
+      name: 'Guyyaa Hinaa',
+      desc: 'Harki fi miilli misirroo hinaadhaan kan faayamu, sirba fi gammachuu dubartootaan kan miidhagu ayyaana dursaa.',
+    },
+  },
+  servicesList: {
+    'Church ceremony coordination': 'Sirna bataskaanaa qindeessuu',
+    'Reception planning and management': 'Qophii fi bulchiinsa galma cidhaa',
+    'Venue selection and booking': 'Bakka filachuu fi galmeessuu',
+    'Décor and floral design': 'Diizayinii daraaraa fi miidhagina galmaa',
+    'Photography and videography coordination': 'Ogummaa suuraa fi viidiyoo qindeessuu',
+    'Music and entertainment': 'Qophii muuziqaa fi bashannanaa',
+    'Catering coordination': 'Tajaajila nyaataa fi dhugaatii to’achuu',
+    'Wedding party coordination': 'Hiriyaa misirroo fi maatii qindeessuu',
+    'Timeline and logistics management': 'Yeroo fi geejjiba to’achuu',
+    'Day-of coordination': 'Guyyaa cidhaa to’annoo guutuu gochuu',
+    'Custom theme and concept development': 'Mata-duree fi yaada addaa qopheessuu',
+    'Styling and décor coordination': 'Miidhagina fi bifa qindeessuu',
+    'Venue planning and selection': 'Karoora fi filannoo bakkaa',
+    'Entertainment and music coordination': 'Muuziqaa fi bashannana bulchuu',
+    'Catering and menu design': 'Diizayinii nyaataa fi qulqullina to’achuu',
+    'Floral design and arrangements': 'Daraaraa qindeessuu fi miidhagsuu',
+    'Guest management and RSVPs': 'Keessummoota simachuu fi to’achuu',
+    'Timeline and logistics': 'Gabatee yeroo fi geejjibaa',
+    'Local and international destination planning': 'Karoora imala biyya keessaa fi alaa',
+    'Destination and venue selection': 'Bakka imalaa fi hoteela filachuu',
+    'Travel and accommodation coordination': 'Imala fi bakka bultii keessummootaa qindeessuu',
+    'Guest coordination and logistics': 'Simannaa fi geejjiba keessummootaa to’achuu',
+    'Event scheduling and timeline': 'Gabatee yeroo sagantaalee',
+    'Décor and styling for the venue': 'Bakka filatameef miidhagina malu',
+    'Personalized consultations': 'Gorsa dhuunfaa itti fufiinsa qabu',
+    'Vendor sourcing at destination': 'Bakka imalame sanatti tajaajiltoota barbaaduu',
+    'Day-of on-site coordination': 'Bakka sanatti to’annoo guyyaa sanaa',
+    'Post-wedding celebration planning': 'Qophii bashannana booda cidhaa',
+    'Civil ceremony planning and coordination': 'Karoora fi qindeessa sirna cidha siivilii',
+    'Registry ceremony coordination': 'Sirna galmee kakuu qindeessuu',
+    'Venue selection for the ceremony': 'Sirnichaf bakka mijataa filachuu',
+    'Simple and elegant décor': 'Miidhagina salphaa fi qulqulluu',
+    'Photography coordination': 'Tajaajila suuraa qindeessuu',
+    'Optional reception planning': 'Karoora ayyaana nyaataa dabalataa',
+    'Personalized planning consultations': 'Gorsa karoora dhuunfaa',
+    'Guest management': 'Bulchiinsa keessummootaa',
+    'Personalized service selection': 'Filannoo tajaajiloota murtaa’an',
+    'Multi-tradition and multicultural planning': 'Karoora aadaalee garaa garaa walitti fidu',
+    'Custom event design and concept': 'Diizayinii sagantaa addaa',
+    'Flexible budget planning': 'Ramaddii baajataa mijataa',
+    'Vendor coordination': 'Tajaajila kennitoota qindeessuu',
+    'Décor, floral, and styling': 'Diikoorii, daraaraa fi diizayinii',
+    'Photography and videography': 'Suuraa fi viidiyoogiraafii',
+    'Catering and entertainment': 'Nyaata, dhugaatii fi bashannana',
+    'Full or partial planning options': 'Filannoowwan karoora guutuu ykn gartokkee',
+  },
+  inquiryForm: {
+    pageTitle: 'Guyyaa Cidha Keessanii Karoorsaa',
+    pageSubtitle:
+      'Waa’ee mul’ata cidha keessanii nutti himaa; yaada bal’aa, filannoo paakeejii fi tarkaanfii itti aanuun dafnee isin qunnamna.',
+    coupleNames: 'Maqaa Misirrootaa',
+    coupleNamesPlaceholder: 'Fkn: Almaz & Daawwit',
+    email: 'Teessoo Imeelii',
+    emailPlaceholder: 'your.email@example.com',
+    phone: 'Lakkoofsa Bilbilaa',
+    phonePlaceholder: '+251 ... yookiin bilbila keessan',
+    weddingCategory: 'Gosa Cidhaa',
+    selectCategory: 'Gosa cidhaa filadhaa',
+    preferredPackage: 'Paakeejii Filatame',
+    selectPackage: 'Paakeejii ykn gosa karooraa filadhaa',
+    weddingDate: 'Guyyaa Cidhaa Tilmaamame',
+    cityOrVenue: 'Magaalaa ykn Galma Filatame',
+    cityOrVenuePlaceholder: 'Fkn: Finfinnee, Bishooftuu, ykn biyya alaa',
+    estimatedGuests: 'Baay’ina Keessummoota Tilmaamame',
+    selectGuests: 'Baay’ina keessummootaa filadhaa',
+    eventsSupport: 'Sagantaalee Gargaarsa Barbaadan',
+    budgetRange: 'Hamma Baajata Tilmaamame',
+    selectBudget: 'Hamma baajataa filadhaa',
+    preferredContactMethod: 'Filannoo Qunnamsiisaa',
+    selectContactMethod: 'Akkaataa qunnamsiisaa filadhaa',
+    additionalNotes: 'Yaada Dabalataa & Mul’ata Keessan',
+    additionalNotesPlaceholder:
+      'Waa’ee aadaa, bifa jaallattan, galma abjootan ykn gaaffii qabdan nutti himaa...',
+    submitButton: 'Gaaffii Cidhaa Ergaa',
+    submittingButton: 'Gaaffiin keessan ergamaa jira...',
+    demoNotice: 'Haala Yaalii: Odeeffannoon biraawzarii keessan keessatti kuufama. README ilaalaa.',
+    successTitle: 'Galatoomaa!',
+    successMessage:
+      'Gaaffiin cidha keessanii nu ga’ee jira. Guyyaa keessan isa addaa karoorsuu jalqabuuf dhiyootti isin qunnamna.',
+    demoNote:
+      'Odeeffannoon kun biraawzarii keessan keessatti olkawamee jira. Imeelii dhugaa argachuuf tajaajila imeelii walitti qabadhaa.',
+    submitAnother: 'Gaaffii Biraa Ergaa',
+    errors: {
+      coupleNames: 'Mee maqaa keessan galchaa',
+      email: 'Mee imeelii keessan galchaa',
+      emailValid: 'Mee teessoo imeelii sirrii galchaa',
+      phone: 'Mee lakkoofsa bilbilaa galchaa',
+      category: 'Mee gosa cidhaa filadhaa',
+      contactMethod: 'Mee karaa qunnamsiisaa filadhaa',
+      general: 'Dogongorri uumamee jira. Mee irra deebi’aa yaalaa ykn kallattiin nu qunnamaa.',
+    },
+    budgets: {
+      notSure: 'Ammatti hin murtoofne',
+      under50k: 'Qarshii 50,000 gadi',
+      range50_100k: 'Qarshii 50,000 – 100,000',
+      range100_250k: 'Qarshii 100,000 – 250,000',
+      range250_500k: 'Qarshii 250,000 – 500,000',
+      above500k: 'Qarshii 500,000+',
+      preferNotToSay: 'Ibsuu hin barbaadu',
+    },
+    guests: {
+      notSure: 'Ammatti hin murtoofne',
+      under50: 'Keessummaa 50 gadi',
+      range50_100: 'Keessummaa 50 – 100',
+      range100_200: 'Keessummaa 100 – 200',
+      range200_500: 'Keessummaa 200 – 500',
+      above500: 'Keessummaa 500+',
+    },
+    contactMethods: {
+      email: 'Imeelii',
+      phone: 'Bilbilaan',
+      whatsapp: 'WhatsApp',
+    },
+  },
+  aboutPage: {
+    eyebrow: 'Seenaa Keenya',
+    title: 'Aadaatti Kan Cime; Ammayyaaf Kan Miidhage.',
+    subtitle:
+      'KM aadaa, hidhata fi tokkummaa maatiiwwan lamaa kabajuuf kan hundeeffame dhaabbata qophii cidha Itoophiyaati.',
+    storyTitle: 'Seenaa KM',
+    storyP1:
+      'Cidhnii Itoophiyaa ayyaana guyyaa tokkoo qofa miti — eebba, jaarsummaa, gammachuu hawaasaa fi duudhaa abbootii guyyoota hedduuf turudha. Kana karoorsuun qindeessa qofa utuu hin taane, hubannoo aadaa gadi fagoo fi tokkoon tokkoo sirnaaf kabaja onnee irraa madfe barbaada.',
+    storyP2:
+      'KM duudhaa aadaa durii Itoophiyaa qindeessa ayyaana ammayyaa wajjin walitti fiduuf hundeeffame. Finfinneetti ayyaana sagantaa jahaa ta’us, biyya alatti eebba mana sagadaa ykn cidha bakka filatamaatti ta’us, tasgabbii, kalaqa fi raawwii guutuu fキャリア fidna.',
+    valuesTitle: 'Dudhaalee Keenya',
+    value1Title: 'Dhugummaa Aadaa',
+    value1Desc:
+      'Sirnoota qulqulluu, uffata aadaa, muuziqaa fi duudhaalee hawaasa hunda kabajaa fi boonummaa guddaadhaan ni eegna.',
+    value2Title: 'Diizayinii Bareedaa',
+    value2Desc:
+      'Cidhnii hundi miidhagina gadi fagoo, halluu walsimu fi seenaa jaalala keessan kan ibsuun qophaa’a.',
+    value3Title: 'Tasgabbii Sammuu',
+    value3Desc:
+      'Jaarsummaa walxaxaa irraa kaasee hanga raawwii guyyaa sanaatti, isinii fi maatiin keessan bilisummaadhaan akka gammaddaniif dhiphina nutu qabata.',
+    statsTitle: 'Lakkoofsaan Yoo Ibsamu',
+    stat1Label: 'Duudhaalee Aadaa Kabajaman',
+    stat2Label: 'Paakeejiiwwan Addaa Qophaa’an',
+    stat3Label: 'Kunuunsa Ogummaa Guutuu',
+  },
+  contactPage: {
+    eyebrow: 'Nu Qunnamaa',
+    title: 'Karoora Cidha Keessanii Waliin Haajalqabnu',
+    subtitle:
+      'Waa’ee paakeejiiwwanii, aadaalee ykn karoora addaa gaaffii yoo qabaattan sadarkaa hundatti isin qajeelchuuf qophiidha.',
+    infoTitle: 'Odeeffannoo Qunnamsiisaa',
+    infoDesc: 'Marii jalqabuuf garee qophii keenya qunnamaa.',
+    phoneLabel: 'Bilbila & WhatsApp',
+    emailLabel: 'Imeelii',
+    locationLabel: 'Teessoo',
+    locationValue: 'Finfinnee, Itoophiyaa & Addunyaa Guutuutti',
+    hoursLabel: 'Sa’aatii Gorsaa',
+    hoursValue: 'Wiixata – Sanbata: Sa’aatii 3:00 – 12:00 (EAT)',
+    faqTitle: 'Gaaffilee Yeroo Baay’ee Gaafataman',
+    faq1Q: 'Cidha keenyaaf yeroo hangam dura KM qunnamuu qabna?',
+    faq1A:
+      'Keessumaa ayyaana aadaa ykn yeroo cidha baay’atutti ji’oota 6 hanga 12 dura akka nu qunnamtan gorsina. Haa ta’u malee, yeroo gabaabaa keessattis akka haala isaatti ni simanna.',
+    faq2Q: 'KM warra biyya alaa jiraataniif cidha ni qopheessaa?',
+    faq2A:
+      'Eeyyee, sirriitti! Maamiltoota keenya keessaa baay’een Ameerikaa Kaabaa, Awurooppaa fi Baha Giddu-galeessaa jiraatanii gara biyyaatti dhufanii kan heeruman ykn biyya filatanitti kan qopheessaniidha.',
+    faq3Q: 'Fedhiin keenya paakeejii barame irraa adda yoo ta’e sirreessuu dandeenyaa?',
+    faq3A:
+      'Eeyyee. Filannoon Qophii Addaa keenya sagantaalee, tajaajiloota fi qindeessitoota mul’ata fi baajata keessan wajjin walsiman qofa akka filattan isin dandeessisa.',
+    faq4Q: 'Sirnoota amantii kan akka Nikaahaa fi eebba bataskaanaa ni qindeessituu?',
+    faq4A:
+      'Eeyyee. Cidha Ortoodoksii, Pirooteestaantii, Kaatolikii fi Islaamaatiif geggeessitoota amantii fi jaarsolii wajjin qindoominaan hojjechuuf muuxannoo guutuu qabna.',
+  },
+  galleryPage: {
+    eyebrow: 'Agarsiisa Hojiiwwan Keenyaa',
+    title: 'Kuusaa Suuraalee Cidhaa',
+    subtitle:
+      'Ayyaana cidha aadaa, sirna duudhaa, miidhagina galmaa fi yeroowwan gammachuu qopheessine asitti daawwadhaa.',
+  },
+  notFound: {
+    title: 'Fuulli Hin Argamne',
+    message: 'Fuulli barbaaddan kun hin jiru yookiin gara bakka biraatti jijjiirameera.',
+    button: 'Gara Fuula Duraatti Deebi’aa',
+  },
+  footer: {
+    tagline1: 'Qopheessaa qofa miti;',
+    tagline2: 'Qooda seenaa keessaniiti.',
+    navigation: 'Kallattiiwwan',
+    packages: 'Paakeejiiwwan',
+    getInTouch: 'Nu Qunnamaa',
+    contactUs: 'Teessoo Keenya',
+    planYourWedding: 'Cidha Keessan Karoorsaa',
+    allRightsReserved: 'KM Qopheessaa Cidhaa. Mirgi hunduu eegamaadha.',
+  },
+};

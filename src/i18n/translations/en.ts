@@ -1,0 +1,396 @@
+import type { Translations } from '../types';
+
+export const en: Translations = {
+  common: {
+    backToPackages: 'Back to All Packages',
+    viewDetails: 'View Details',
+    explorePackage: 'Explore Package',
+    planYourDay: 'Plan Your Day',
+    viewAllPackages: 'View All Packages',
+    startJourney: 'Start Your Wedding Journey',
+    contactUs: 'Contact Us',
+    learnMore: 'Learn More',
+    close: 'Close',
+    all: 'All',
+    events: 'events',
+    options: 'Options',
+    included: "What's Included",
+    chooseEvents: 'Choose 2 events',
+    chooseOneEvent: 'Choose 1 event',
+    dayOfCoordination: 'Main day only',
+  },
+  nav: {
+    home: 'Home',
+    packages: 'Packages',
+    gallery: 'Gallery',
+    about: 'About',
+    contact: 'Contact',
+    planDay: 'Plan Your Day',
+    selectLanguage: 'Select Language',
+  },
+  hero: {
+    eyebrow: 'Ethiopian Wedding Planner',
+    titleLine1: 'Your Culture.',
+    titleLine2: 'Our Expertise.',
+    subtitle:
+      'From traditional celebrations to modern love stories, KM brings your wedding vision to life with care, creativity and attention to every detail.',
+    explorePackages: 'Explore Packages',
+    planYourDay: 'Plan Your Day',
+    culturalAccent: 'For every love story, an authentic celebration',
+  },
+  packagesSection: {
+    eyebrow: 'Our Packages',
+    titleLine1: 'Tailored to',
+    titleLine2: 'Your Story',
+    description:
+      'Choose from our thoughtfully designed packages, or let us create a custom plan that fits your vision, culture and budget.',
+    viewAll: 'View All Packages',
+    featured: 'Featured Packages',
+    exploreMore: 'Explore each celebration tailored to your traditions',
+  },
+  weddingTypes: {
+    eyebrow: 'Wedding Types',
+    titleLine1: 'For Every',
+    titleLine2: 'Faith & Vision',
+    description:
+      "Whether it's a church blessing, a mosque ceremony, or a modern celebration, KM brings your dream wedding to life — with respect for your faith, culture and traditions.",
+    cta: 'View All Packages',
+  },
+  gallerySection: {
+    eyebrow: 'Gallery',
+    title: "Moments We've Captured",
+    description:
+      'A curated collection of wedding celebrations — each one unique, beautiful, and deeply personal.',
+    viewFull: 'View Full Gallery',
+  },
+  howItWorks: {
+    eyebrow: 'How It Works',
+    title: 'Four Simple Steps',
+    step1Title: 'Share Your Vision',
+    step1Desc:
+      'Tell us about your dream wedding — your traditions, preferences, and everything that makes your love story unique.',
+    step2Title: 'Choose Your Package',
+    step2Desc:
+      'Select a package that fits your celebration, or let us create a custom plan tailored to your needs and budget.',
+    step3Title: 'Plan Every Detail',
+    step3Desc:
+      'Our team handles venue, décor, catering, and coordination — while keeping you involved in every decision.',
+    step4Title: 'Celebrate Your Day',
+    step4Desc:
+      'Relax and enjoy every moment. We manage the logistics so you can be fully present on your special day.',
+  },
+  finalCta: {
+    titleLine1: "Let's Plan Something",
+    titleLine2: 'Meaningful.',
+    description:
+      "Every love story deserves a celebration that reflects who you are. Let KM help you create a wedding you'll remember forever.",
+    button: 'Start Your Wedding Journey',
+  },
+  categories: {
+    traditional: {
+      title: 'Traditional Weddings',
+      nativeTitle: 'የተለመደ ሰርግ',
+      shortDesc: 'Honor every tradition — from shimgelina to mels — with a wedding rooted in Ethiopian heritage.',
+      desc: 'Celebrate your union through the rich, time-honored customs of Ethiopian tradition. From the shimgelina negotiations to the joyous mels celebration, KM ensures every ritual is honored with care, beauty, and authentic cultural detail.',
+      highlights: ['Beteseb (Family)', 'Guad (Friend)', 'Abro Adeg (Companion)', 'Engda (Guest)'],
+    },
+    muslim: {
+      title: 'Muslim Weddings',
+      nativeTitle: 'የሙስሊም ሰርግ',
+      shortDesc: 'From nikah to henna, plan a wedding that honors Islamic traditions with Ethiopian warmth.',
+      desc: 'KM creates beautiful Muslim wedding celebrations that honor Islamic traditions while reflecting the unique cultural heritage of Ethiopian Muslim families. From the sacred nikah to the joyous serg, every detail is handled with respect and care.',
+      highlights: ['Beteseb (Family)', 'Guad (Friend)', 'Abro Adeg (Companion)', 'Engda (Guest)'],
+    },
+    christian: {
+      title: 'Christian Weddings',
+      nativeTitle: 'የክርስቲያን ሰርግ',
+      shortDesc: 'A sacred celebration of faith — from church ceremony to reception, planned with reverence.',
+      desc: 'Celebrate your sacred union with a Christian wedding that reflects your faith and Ethiopian heritage. KM coordinates church ceremonies, receptions, and every detail to create a wedding that is both spiritually meaningful and beautifully executed.',
+      highlights: ['Church Ceremony', 'Reception Planning', 'Décor & Styling', 'Photography & More'],
+    },
+    modern: {
+      title: 'Modern Weddings',
+      nativeTitle: 'ዘመናዊ ሰርግ',
+      shortDesc: 'A fresh, contemporary approach to wedding planning — stylish, personal, and uniquely yours.',
+      desc: 'For couples who want a contemporary celebration with a fresh, stylish approach. KM offers flexible planning that blends modern aesthetics with personal touches — creating a wedding that feels uniquely yours.',
+      highlights: ['Custom Themes', 'Elegant Décor', 'Full Planning', 'Photography & More'],
+    },
+    destination: {
+      title: 'Destination Weddings',
+      nativeTitle: 'የመድረሻ ሰርግ',
+      shortDesc: 'Exchange vows anywhere — KM handles venue, travel, and every detail of your destination dream.',
+      desc: 'Dream of exchanging vows in a breathtaking location? KM plans destination weddings both within Ethiopia and internationally — handling venue selection, travel coordination, and every logistical detail so you can focus on the celebration.',
+      highlights: ['Local & International', 'Travel Planning', 'Venue Selection', 'On-Site Coordination'],
+    },
+    civil: {
+      title: 'Civil Weddings',
+      nativeTitle: 'የሲቪል ሰርግ',
+      shortDesc: 'Simple and elegant — a beautifully planned civil ceremony with thoughtful details.',
+      desc: "Simple, elegant, and meaningful. KM plans civil wedding ceremonies with the same care and attention to detail as any grand celebration. Whether it's an intimate registry ceremony or a styled civil event, we make it beautiful.",
+      highlights: ['Registry Ceremony', 'Legal Support', 'Simple & Elegant', 'Personalized Planning'],
+    },
+    custom: {
+      title: 'Custom Wedding Planning',
+      nativeTitle: 'ብጁ ሰርግ ዕቅድ',
+      shortDesc: 'Your wedding, your way — a fully personalized plan built around your unique vision.',
+      desc: "No two love stories are the same. KM offers fully customized wedding planning where you choose the services, traditions, and details that matter most. Whether you're blending cultures, creating something entirely new, or need support for specific events — we build your wedding around your vision.",
+      highlights: ['Fully Personalized', 'Mix & Match Services', 'Any Tradition', 'Flexible Budget'],
+    },
+  },
+  packageTiers: {
+    beteseb: {
+      name: 'Beteseb',
+      englishName: 'Family Package',
+      descTraditional:
+        'The most comprehensive traditional wedding package. Covers every stage of the Ethiopian wedding journey — from the formal family negotiations to the post-wedding celebrations.',
+      descMuslim:
+        'The most comprehensive Muslim wedding package. Covers every stage from the sacred nikah ceremony to the post-wedding celebrations, ensuring each tradition is beautifully represented.',
+    },
+    guad: {
+      name: 'Guad',
+      englishName: 'Friend Package',
+      descTraditional:
+        'A flexible package designed for couples who want professional planning for key wedding events. Choose the combination that fits your celebration.',
+      descMuslim:
+        'A flexible package for couples who want professional planning for selected wedding events. Choose the combination that best fits your celebration.',
+    },
+    abroAdeg: {
+      name: 'Abro Adeg',
+      englishName: 'Companion Package',
+      descTraditional:
+        'A well-rounded package covering the three core events of an Ethiopian traditional wedding. Ideal for couples who want expert planning for the essential ceremonies.',
+      descMuslim:
+        'A focused package covering the three core events of a Muslim Ethiopian wedding. Expert planning for the ceremonies that matter most.',
+    },
+    engda: {
+      name: 'Engda',
+      englishName: 'Guest Package',
+      descTraditional:
+        'Focused planning for the main wedding day. Perfect for couples who need professional coordination for their serg celebration.',
+      descMuslim:
+        'Focused planning for the main wedding day celebration. Ideal for couples who need professional coordination for their serg.',
+    },
+  },
+  events: {
+    shimgelina: {
+      name: 'Shimgelina',
+      desc: 'The formal engagement negotiation where respected elders from both families meet to discuss and agree on the union. A deeply cultural and meaningful ceremony that sets the tone for the wedding.',
+    },
+    tloshi: {
+      name: 'Tloshi / Dowry',
+      desc: 'The traditional exchange of gifts and dowry between families, symbolizing commitment, respect, and the merging of two households.',
+    },
+    bridalShower: {
+      name: 'Bridal Shower',
+      desc: 'A pre-wedding celebration honoring the bride, bringing together close friends and family for an intimate gathering filled with blessings, gifts, and joy.',
+    },
+    serg: {
+      name: 'Serg',
+      desc: 'The main wedding day — a grand celebration of music, dance, feasting, and joy, where the couple is officially celebrated by their community.',
+    },
+    mels: {
+      name: 'Mels',
+      desc: "The post-wedding reception hosted by the groom's family, welcoming the bride into her new family. A beautiful continuation of the celebration.",
+    },
+    kilkil: {
+      name: 'Kilkil',
+      desc: 'A light, joyful gathering that follows the wedding, bringing both families together in a relaxed atmosphere to strengthen the new bond.',
+    },
+    nikah: {
+      name: 'Nikah',
+      desc: 'The sacred Islamic marriage ceremony — the spiritual foundation of the wedding, conducted according to Islamic tradition with prayers, vows, and blessings.',
+    },
+    henna: {
+      name: 'Henna Day',
+      desc: "A vibrant pre-wedding celebration where the bride's hands and feet are adorned with intricate henna designs. A joyful gathering of women, music, and blessings.",
+    },
+  },
+  servicesList: {
+    'Church ceremony coordination': 'Church ceremony coordination',
+    'Reception planning and management': 'Reception planning and management',
+    'Venue selection and booking': 'Venue selection and booking',
+    'Décor and floral design': 'Décor and floral design',
+    'Photography and videography coordination': 'Photography and videography coordination',
+    'Music and entertainment': 'Music and entertainment',
+    'Catering coordination': 'Catering coordination',
+    'Wedding party coordination': 'Wedding party coordination',
+    'Timeline and logistics management': 'Timeline and logistics management',
+    'Day-of coordination': 'Day-of coordination',
+    'Custom theme and concept development': 'Custom theme and concept development',
+    'Styling and décor coordination': 'Styling and décor coordination',
+    'Venue planning and selection': 'Venue planning and selection',
+    'Entertainment and music coordination': 'Entertainment and music coordination',
+    'Catering and menu design': 'Catering and menu design',
+    'Floral design and arrangements': 'Floral design and arrangements',
+    'Guest management and RSVPs': 'Guest management and RSVPs',
+    'Timeline and logistics': 'Timeline and logistics',
+    'Local and international destination planning': 'Local and international destination planning',
+    'Destination and venue selection': 'Destination and venue selection',
+    'Travel and accommodation coordination': 'Travel and accommodation coordination',
+    'Guest coordination and logistics': 'Guest coordination and logistics',
+    'Event scheduling and timeline': 'Event scheduling and timeline',
+    'Décor and styling for the venue': 'Décor and styling for the venue',
+    'Personalized consultations': 'Personalized consultations',
+    'Vendor sourcing at destination': 'Vendor sourcing at destination',
+    'Day-of on-site coordination': 'Day-of on-site coordination',
+    'Post-wedding celebration planning': 'Post-wedding celebration planning',
+    'Civil ceremony planning and coordination': 'Civil ceremony planning and coordination',
+    'Registry ceremony coordination': 'Registry ceremony coordination',
+    'Venue selection for the ceremony': 'Venue selection for the ceremony',
+    'Simple and elegant décor': 'Simple and elegant décor',
+    'Photography coordination': 'Photography coordination',
+    'Optional reception planning': 'Optional reception planning',
+    'Personalized planning consultations': 'Personalized planning consultations',
+    'Guest management': 'Guest management',
+    'Personalized service selection': 'Personalized service selection',
+    'Multi-tradition and multicultural planning': 'Multi-tradition and multicultural planning',
+    'Custom event design and concept': 'Custom event design and concept',
+    'Flexible budget planning': 'Flexible budget planning',
+    'Vendor coordination': 'Vendor coordination',
+    'Décor, floral, and styling': 'Décor, floral, and styling',
+    'Photography and videography': 'Photography and videography',
+    'Catering and entertainment': 'Catering and entertainment',
+    'Full or partial planning options': 'Full or partial planning options',
+  },
+  inquiryForm: {
+    pageTitle: 'Plan Your Wedding Day',
+    pageSubtitle:
+      'Tell us about your wedding vision, and we will get back to you with ideas, package details, and next steps.',
+    coupleNames: "Couple's Names",
+    coupleNamesPlaceholder: 'e.g., Almaz & Dawit',
+    email: 'Email Address',
+    emailPlaceholder: 'your.email@example.com',
+    phone: 'Phone Number',
+    phonePlaceholder: '+251 ... or your local number',
+    weddingCategory: 'Wedding Category',
+    selectCategory: 'Select wedding category',
+    preferredPackage: 'Preferred Package',
+    selectPackage: 'Select package or planning type',
+    weddingDate: 'Approximate Wedding Date',
+    cityOrVenue: 'City or Venue',
+    cityOrVenuePlaceholder: 'e.g., Addis Ababa, Bishoftu, or international destination',
+    estimatedGuests: 'Estimated Guest Count',
+    selectGuests: 'Select guest count range',
+    eventsSupport: 'Events Needing Support',
+    budgetRange: 'Estimated Budget Range',
+    selectBudget: 'Select budget range',
+    preferredContactMethod: 'Preferred Contact Method',
+    selectContactMethod: 'Select contact method',
+    additionalNotes: 'Additional Notes & Vision',
+    additionalNotesPlaceholder:
+      'Tell us about your cultural traditions, favorite styles, venue dreams, or any specific questions you have...',
+    submitButton: 'Submit Wedding Inquiry',
+    submittingButton: 'Submitting Your Inquiry...',
+    demoNotice: 'Demo Mode: Submissions are saved to local storage. See README for backend integration.',
+    successTitle: 'Thank You!',
+    successMessage:
+      "Your wedding inquiry has been received. We'll be in touch soon to start planning your special day.",
+    demoNote:
+      'This submission was saved to your browser local storage. Connect EmailJS, Formspree or a custom API to receive actual emails.',
+    submitAnother: 'Submit Another Inquiry',
+    errors: {
+      coupleNames: 'Please enter your names',
+      email: 'Please enter your email',
+      emailValid: 'Please enter a valid email address',
+      phone: 'Please enter your phone number',
+      category: 'Please select a wedding category',
+      contactMethod: 'Please select a contact method',
+      general: 'Something went wrong. Please try again or contact us directly.',
+    },
+    budgets: {
+      notSure: 'Not sure yet',
+      under50k: 'Under 50,000 ETB',
+      range50_100k: '50,000 – 100,000 ETB',
+      range100_250k: '100,000 – 250,000 ETB',
+      range250_500k: '250,000 – 500,000 ETB',
+      above500k: '500,000+ ETB',
+      preferNotToSay: 'Prefer not to say',
+    },
+    guests: {
+      notSure: 'Not sure yet',
+      under50: 'Under 50 guests',
+      range50_100: '50 – 100 guests',
+      range100_200: '100 – 200 guests',
+      range200_500: '200 – 500 guests',
+      above500: '500+ guests',
+    },
+    contactMethods: {
+      email: 'Email',
+      phone: 'Phone Call',
+      whatsapp: 'WhatsApp',
+    },
+  },
+  aboutPage: {
+    eyebrow: 'Our Story',
+    title: 'Rooted in Tradition. Designed for Today.',
+    subtitle:
+      'KM is an Ethiopian wedding planning brand dedicated to celebrating culture, connection, and the beauty of two families becoming one.',
+    storyTitle: 'The KM Story',
+    storyP1:
+      'Ethiopian weddings are more than an event — they are a rich tapestry of blessings, negotiations, community celebrations, and ancestral traditions that span multiple days. Planning one requires not just logistical precision, but deep cultural understanding and heartfelt respect for every ritual.',
+    storyP2:
+      'KM was founded to bridge the gap between timeless Ethiopian customs and modern event design. Whether our couples are planning an elaborate six-event celebration in Addis Ababa, a church blessing in the diaspora, or an intimate destination ceremony, we bring calm, creativity, and flawless execution to every moment.',
+    valuesTitle: 'Our Values',
+    value1Title: 'Cultural Authenticity',
+    value1Desc:
+      'We honor the sacred rituals, traditional attire, music, and ceremonies of each Ethiopian community with deep cultural accuracy and pride.',
+    value2Title: 'Thoughtful Design',
+    value2Desc:
+      'Every wedding is crafted with sophisticated aesthetics, elegant color palettes, and curated details that honor your personal love story.',
+    value3Title: 'Peace of Mind',
+    value3Desc:
+      'From complex elder negotiations to seamless day-of execution, our team manages the stress so you and your families can celebrate freely.',
+    statsTitle: 'By the Numbers',
+    stat1Label: 'Wedding Traditions Honored',
+    stat2Label: 'Custom Packages Created',
+    stat3Label: 'Devoted Coordination & Care',
+  },
+  contactPage: {
+    eyebrow: 'Get in Touch',
+    title: "Let's Begin Planning Your Wedding",
+    subtitle:
+      'Whether you have questions about packages, traditions, or custom planning, we are here to guide you every step of the way.',
+    infoTitle: 'Contact Information',
+    infoDesc: 'Reach out to our planning team to start the conversation.',
+    phoneLabel: 'Phone & WhatsApp',
+    emailLabel: 'Email',
+    locationLabel: 'Location',
+    locationValue: 'Addis Ababa, Ethiopia & Available Worldwide',
+    hoursLabel: 'Consultation Hours',
+    hoursValue: 'Monday – Saturday: 9:00 AM – 6:00 PM (EAT)',
+    faqTitle: 'Frequently Asked Questions',
+    faq1Q: 'How far in advance should we book KM for our wedding?',
+    faq1A:
+      'We recommend reaching out 6 to 12 months before your wedding date, particularly for multi-event traditional or high-season celebrations. However, we also accommodate shorter timelines whenever possible.',
+    faq2Q: 'Can KM plan weddings for Ethiopian couples living abroad?',
+    faq2A:
+      'Yes, absolutely! A significant portion of our clients reside in North America, Europe, and the Middle East and return to Ethiopia for their wedding, or host destination celebrations worldwide.',
+    faq3Q: 'Can we customize a package if our needs differ from the standard tiers?',
+    faq3A:
+      'Yes. Our Custom Wedding Planning option allows you to select exactly the events, services, and coordination support that fit your vision and budget.',
+    faq4Q: 'Do you manage religious ceremonies like Nikah or church blessings?',
+    faq4A:
+      'Yes. We have dedicated coordination experience for Orthodox, Protestant, Catholic, and Islamic marriage celebrations, working in harmony with religious elders and officiants.',
+  },
+  galleryPage: {
+    eyebrow: 'Portfolio',
+    title: 'Our Wedding Gallery',
+    subtitle:
+      'Browse through a showcase of Ethiopian celebrations, cultural ceremonies, decor styling, and joyful moments we have had the honor to plan.',
+  },
+  notFound: {
+    title: 'Page Not Found',
+    message: 'The page you are looking for does not exist or has been moved.',
+    button: 'Return to Homepage',
+  },
+  footer: {
+    tagline1: 'More than a planner.',
+    tagline2: "We're part of your story.",
+    navigation: 'Navigation',
+    packages: 'Packages',
+    getInTouch: 'Get in Touch',
+    contactUs: 'Contact Us',
+    planYourWedding: 'Plan Your Wedding',
+    allRightsReserved: 'KM Wedding Planner. All rights reserved.',
+  },
+};

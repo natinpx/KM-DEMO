@@ -1,0 +1,396 @@
+import type { Translations } from '../types';
+
+export const am: Translations = {
+  common: {
+    backToPackages: 'ወደ ሁሉም ፓኬጆች ተመለስ',
+    viewDetails: 'ዝርዝሩን ይመልከቱ',
+    explorePackage: 'ፓኬጁን ያስሱ',
+    planYourDay: 'ቀንዎን ያቅዱ',
+    viewAllPackages: 'ሁሉንም ፓኬጆች ይመልከቱ',
+    startJourney: 'የሰርግ ጉዞዎን ይጀምሩ',
+    contactUs: 'ያግኙን',
+    learnMore: 'ተጨማሪ ይወቁ',
+    close: 'ዝጋ',
+    all: 'ሁሉም',
+    events: 'ዝግጅቶች',
+    options: 'አማራጮች',
+    included: 'የተካተቱ አገልግሎቶች',
+    chooseEvents: '2 ዝግጅቶችን ይምረጡ',
+    chooseOneEvent: '1 ዝግጅት ይምረጡ',
+    dayOfCoordination: 'የሰርጉ ቀን ብቻ',
+  },
+  nav: {
+    home: 'ዋና ገጽ',
+    packages: 'ፓኬጆች',
+    gallery: 'የፎቶ ማህደር',
+    about: 'ስለ እኛ',
+    contact: 'አድራሻ',
+    planDay: 'ቀንዎን ያቅዱ',
+    selectLanguage: 'ቋንቋ ይምረጡ',
+  },
+  hero: {
+    eyebrow: 'የኢትዮጵያ ሰርግ አዘጋጅ',
+    titleLine1: 'የእርስዎ ባህል፤',
+    titleLine2: 'የእኛ ሙያ።',
+    subtitle:
+      'ከባህላዊ ክብረ በዓላት እስከ ዘመናዊ የፍቅር ታሪኮች፣ ኬኤም (KM) የሰርግዎን ህልም በጥንቃቄ፣ በፈጠራ እና ለእያንዳንዱ ዝርዝር ልዩ ትኩረት በመስጠት እውን ያደርጋል።',
+    explorePackages: 'ፓኬጆችን ያስሱ',
+    planYourDay: 'ቀንዎን ያቅዱ',
+    culturalAccent: 'ለሁሉም የፍቅር ታሪክ፣ የተዋበ ባህላዊ ድግስ',
+  },
+  packagesSection: {
+    eyebrow: 'የእኛ ፓኬጆች',
+    titleLine1: 'ለእርስዎ ታሪክ',
+    titleLine2: 'የተዘጋጁ',
+    description:
+      'በጥንቃቄ ከተዘጋጁት ፓኬጆቻችን ይምረጡ፣ ወይም የእርስዎን ራዕይ፣ ባህልና በጀት ያገናዘበ ልዩ ዕቅድ እናዘጋጅልዎታለን።',
+    viewAll: 'ሁሉንም ፓኬጆች ይመልከቱ',
+    featured: 'ተመራጭ ፓኬጆች',
+    exploreMore: 'ከባህልዎ ጋር የተጣጣመውን የሰርግ ዝግጅት ያስሱ',
+  },
+  weddingTypes: {
+    eyebrow: 'የሰርግ አይነቶች',
+    titleLine1: 'ለሁሉም እምነትና',
+    titleLine2: 'ራዕይ የሚመጥን',
+    description:
+      'የቤተክርስቲያን ቡራኬ፣ የኒካህ ሥነ-ሥርዓት ወይም ዘመናዊ ድግስ ቢሆን፤ ኬኤም የእምነትዎን፣ የባህልዎንና የወግዎን ክብር ጠብቆ የህልም ሰርግዎን እውን ያደርጋል።',
+    cta: 'ሁሉንም ፓኬጆች ይመልከቱ',
+  },
+  gallerySection: {
+    eyebrow: 'የፎቶ ማህደር',
+    title: 'የቀረጽናቸው የማይረሱ ቅጽበቶች',
+    description:
+      'የተመረጡ የሰርግ ክብረ በዓላት ስብስብ — እያንዳንዱ የተለየ፣ ውብ እና ከልብ የመነጨ።',
+    viewFull: 'ሙሉውን ማህደር ይመልከቱ',
+  },
+  howItWorks: {
+    eyebrow: 'አሰራራችን',
+    title: 'አራት ቀላል ደረጃዎች',
+    step1Title: 'ራዕይዎን ያጋሩን',
+    step1Desc:
+      'ስለ ህልም ሰርግዎ ይንገሩን — ባህልዎ፣ ምርጫዎችዎ እና የፍቅር ታሪክዎን ልዩ የሚያደርጉትን ነገሮች በሙሉ እንቀበላለን።',
+    step2Title: 'ፓኬጅዎን ይምረጡ',
+    step2Desc:
+      'ለክብረ በዓልዎ የሚስማማውን ፓኬጅ ይምረጡ፣ ወይም ከፍላጎትዎ እና ከበጀትዎ ጋር የተጣጣመ ብጁ ዕቅድ እናዘጋጅልዎታለን።',
+    step3Title: 'እያንዳንዱን ዝርዝር ማቀድ',
+    step3Desc:
+      'የቦታ ምርጫ፣ ማስዋብ፣ የምግብ ዝግጅት እና አጠቃላይ ቅንጅትን እርስዎ ባሉበት በጥንቃቄ እንመራለን።',
+    step4Title: 'ቀንዎን በደስታ ያክብሩ',
+    step4Desc:
+      'ዘና ብለው በደስታ ይደምቁ። በልዩ ቀንዎ ሙሉ በሙሉ ከቤተሰብዎ ጋር እንዲሆኑ የሥራውን ሂደት በሙሉ እኛ እንቆጣጠራለን።',
+  },
+  finalCta: {
+    titleLine1: 'ትርጉም ያለው ቀን',
+    titleLine2: 'አብረን እናቅድ።',
+    description:
+      'ማንኛውም የፍቅር ታሪክ ማንነቱን የሚገልጽ ድንቅ በዓል ይገባዋል። ኬኤም ለዘላለም የሚታወስ ውብ ሰርግ እንዲያዘጋጁ ያግዝዎታል።',
+    button: 'የሰርግ ጉዞዎን ይጀምሩ',
+  },
+  categories: {
+    traditional: {
+      title: 'ባህላዊ ሰርግ',
+      nativeTitle: 'የተለመደ ሰርግ',
+      shortDesc: 'ከሽምግልና እስከ መልስ — እያንዳንዱን ባህል በኢትዮጵያዊ ቅርስና ውበት ያክብሩ።',
+      desc: 'የጋብቻዎን አንድነት በኢትዮጵያ አንጋፋና የተከበሩ ባህሎች ያክብሩ። ከሽምግልና ንግግር ጀምሮ እስከ ደማቁ የመልስ ድግስ፣ ኬኤም እያንዳንዱ ወግ በጥንቃቄ፣ በውበት እና በእውነተኛ ባህላዊ ይዘት መከበሩን ያረጋግጣል።',
+      highlights: ['ቤተሰብ', 'ጓድ', 'አብሮ አደግ', 'እንግዳ'],
+    },
+    muslim: {
+      title: 'የሙስሊም ሰርግ',
+      nativeTitle: 'የሙስሊም ሰርግ',
+      shortDesc: 'ከኒካህ እስከ ሂና — እስላማዊ ወጎችን በኢትዮጵያዊ እንግዳ ተቀባይነት የሚያደምቅ ሰርግ ያቅዱ።',
+      desc: 'ኬኤም እስላማዊ ወጎችን የሚያከብሩ እና የኢትዮጵያውያን ሙስሊም ቤተሰቦችን ልዩ ባህላዊ ቅርስ የሚያንጸባርቁ ውብ የሰርግ ድግሶችን ያዘጋጃል። ከተቀደሰው ኒካህ እስከ ደማቁ ሰርግ፣ እያንዳንዱ ዝርዝር በአክብሮትና በጥንቃቄ ይከናወናል።',
+      highlights: ['ቤተሰብ', 'ጓድ', 'አብሮ አደግ', 'እንግዳ'],
+    },
+    christian: {
+      title: 'የክርስቲያን ሰርግ',
+      nativeTitle: 'የክርስቲያን ሰርግ',
+      shortDesc: 'የእምነት የተቀደሰ ክብረ በዓል — ከቤተክርስቲያን ስርዓት እስከ አዳራሽ ድግስ በአክብሮት የተዘጋጀ።',
+      desc: 'የተቀደሰውን ጋብቻዎን እምነትዎንና ኢትዮጵያዊነትዎን በሚያንጸባርቅ ሰርግ ያክብሩ። ኬኤም የቤተክርስቲያን ሥነ-ሥርዓቶችን፣ የድግስ አዳራሽ ዝግጅቶችንና እያንዳንዱን ዝርዝር በመምራት መንፈሳዊ ትርጉምና ውበት ያለው ሰርግ ያዘጋጃል።',
+      highlights: ['የቤተክርስቲያን ሥርዓት', 'የድግስ ዝግጅት', 'ዲኮርና ውበት', 'ፎቶና ቪዲዮ'],
+    },
+    modern: {
+      title: 'ዘመናዊ ሰርግ',
+      nativeTitle: 'ዘመናዊ ሰርግ',
+      shortDesc: 'አዲስና ዘመናዊ የሰርግ ዝግጅት — ውብ፣ ግላዊና ለእርስዎ ብቻ የተለየ።',
+      desc: 'በዘመናዊ ዲዛይንና ውበት ልዩ ድግስ ለሚፈልጉ ጥንዶች። ኬኤም ዘመናዊ የውበት አሰራርን ከግል ምርጫዎችዎ ጋር በማዋሃድ ለእርስዎ ብቻ የተበጀ አስደናቂ ሰርግ ያዘጋጃል።',
+      highlights: ['ብጁ ጽንሰ-ሀሳቦች', 'የተዋበ ዲኮር', 'ሙሉ ቅንጅት', 'ፎቶና ቪዲዮ'],
+    },
+    destination: {
+      title: 'የመድረሻ ሰርግ',
+      nativeTitle: 'የመድረሻ ሰርግ',
+      shortDesc: 'በመረጡት ቦታ ቃል ይግቡ — ኬኤም የቦታ፣ የጉዞ እና የዝግጅት ሂደቶችን በሙሉ ያከናውናል።',
+      desc: 'በተፈጥሮ ማራኪ ቦታ ላይ ቃል ኪዳን መግባት አልመዋል? ኬኤም በኢትዮጵያ ውስጥም ሆነ በውጭ ሀገራት የመድረሻ ሰርጎችን ያዘጋጃል — የቦታ ምርጫን፣ የጉዞና ማረፊያ ቅንጅትን እንዲሁም እያንዳንዱን ዝርዝር ያከናውናል።',
+      highlights: ['ሀገር ውስጥና ውጭ', 'የጉዞ ዕቅድ', 'የቦታ ምርጫ', 'በቦታው ላይ ክትትል'],
+    },
+    civil: {
+      title: 'የሲቪል ሰርግ',
+      nativeTitle: 'የሲቪል ሰርግ',
+      shortDesc: 'ቀላልና ውብ — በጥንቃቄ የተዘጋጀ የሲቪል ጋብቻ ሥነ-ሥርዓት።',
+      desc: 'ቀላል፣ ውብ እና ትርጉም ያለው። ኬኤም ልክ እንደ ትልልቅ ድግሶች ሁሉ ለሲቪል ጋብቻዎችም ልዩ ትኩረትና እንክብካቤ ይሰጣል። የውል ማሰሪያ ሥነ-ሥርዓትም ይሁን የተዋበ ድግስ፣ እጅግ አስደሳች እንዲሆን እናደርጋለን።',
+      highlights: ['የውል ሥርዓት', 'የህግ ድጋፍ', 'ቀላልና ውብ', 'ግላዊ ዕቅድ'],
+    },
+    custom: {
+      title: 'ብጁ የሰርግ ዕቅድ',
+      nativeTitle: 'ብጁ ሰርግ ዕቅድ',
+      shortDesc: 'ሰርግዎ በእርስዎ ምርጫ — በራዕይዎ ዙሪያ የተገነባ ሙሉ ለሙሉ የተበጀ ዕቅድ።',
+      desc: 'ሁለት ተመሳሳይ የፍቅር ታሪኮች የሉም። ኬኤም ለእርስዎ በጣም አስፈላጊ የሆኑትን አገልግሎቶች፣ ባህሎችና ዝርዝሮች የሚመርጡበት ሙሉ ለሙሉ ብጁ የሰርግ ዕቅድ ያቀርባል።',
+      highlights: ['ሙሉ ለሙሉ ብጁ', 'የተለያዩ አገልግሎቶች ምርጫ', 'ማንኛውም ባህል', 'ተለዋዋጭ በጀት'],
+    },
+  },
+  packageTiers: {
+    beteseb: {
+      name: 'ቤተሰብ',
+      englishName: 'Family Package',
+      descTraditional:
+        'ሁሉን አቀፍ ባህላዊ የሰርግ ፓኬጅ። ከሽምግልና ጀምሮ እስከ ድህረ-ሰርግ ክብረ በዓላት ድረስ እያንዳንዱን የኢትዮጵያ ሰርግ ሂደት ያካትታል።',
+      descMuslim:
+        'ሁሉን አቀፍ የሙስሊም ሰርግ ፓኬጅ። ከተቀደሰው የኒካህ ሥነ-ሥርዓት እስከ ድህረ-ሰርግ ድግስ እያንዳንዱ ባህል በሚገባ እንዲከናወን ያደርጋል።',
+    },
+    guad: {
+      name: 'ጓድ',
+      englishName: 'Friend Package',
+      descTraditional:
+        'ለተመረጡ የሰርግ ዝግጅቶች ሙያዊ አጋርነት ለሚፈልጉ ጥንዶች የተዘጋጀ ተለዋዋጭ ፓኬጅ። ለዝግጅትዎ የሚስማማውን ጥምረት ይምረጡ።',
+      descMuslim:
+        'ለተመረጡ የሙስሊም ሰርግ ዝግጅቶች የተዘጋጀ ተለዋዋጭ ፓኬጅ። ለዝግጅትዎ የሚስማማውን ጥምረት ይምረጡ።',
+    },
+    abroAdeg: {
+      name: 'አብሮ አደግ',
+      englishName: 'Companion Package',
+      descTraditional:
+        'የኢትዮጵያ ባህላዊ ሰርግ ሶስት ዋና ዋና ዝግጅቶችን የሚያካትት የተሟላ ፓኬጅ። ለአስፈላጊዎቹ ሥነ-ሥርዓቶች ሙያዊ ቅንጅት ለሚፈልጉ ጥንዶች ተመራጭ።',
+      descMuslim:
+        'የሙስሊም ሰርግ ሶስት ዋና ዋና ዝግጅቶችን ያካተተ የተሟላ ፓኬጅ። ለዋና ዋናዎቹ ሥርዓቶች ሙያዊ ድጋፍ ይሰጣል።',
+    },
+    engda: {
+      name: 'እንግዳ',
+      englishName: 'Guest Package',
+      descTraditional:
+        'ለዋናው የሰርግ ቀን ብቻ የተዘጋጀ ልዩ ዕቅድ። ለሰርጋቸው ቀን ሙያዊ ቅንጅት ለሚፈልጉ ጥንዶች ፍጹም ተስማሚ።',
+      descMuslim:
+        'ለዋናው የሰርግ ቀን ድግስ ብቻ የተዘጋጀ ሙያዊ ዕቅድ። ለሰርጋቸው ቀን አስተማማኝ ቅንጅት ለሚሹ ጥንዶች ተስማሚ።',
+    },
+  },
+  events: {
+    shimgelina: {
+      name: 'ሽምግልና',
+      desc: 'የተከበሩ የሁለቱም ቤተሰብ ሽማግሌዎች ተገናኝተው ስለ አንድነቱ የሚነጋገሩበት እና የሚስማሙበት ይፋዊ የጋብቻ ጥያቄ ሥነ-ሥርዓት።',
+    },
+    tloshi: {
+      name: 'ጥሎሽ',
+      desc: 'በሁለቱ ቤተሰቦች መካከል የሚደረግ ባህላዊ የስጦታ ልውውጥ፤ አክብሮትን፣ ቁርጠኝነትን እና የሁለት ቤተሰቦችን መዋሃድ የሚያሳይ ሥርዓት።',
+    },
+    bridalShower: {
+      name: 'የሙሽሪት ድግስ',
+      desc: 'የቅርብ ጓደኞች እና ቤተሰቦች ተሰብስበው ሙሽሪትን በምርቃት፣ በስጦታ እና በደስታ የሚያከብሩበት የቅድመ-ሰርግ ድግስ።',
+    },
+    serg: {
+      name: 'ሰርግ',
+      desc: 'ዋናው የሰርግ ቀን — ሙዚቃ፣ ጭፈራ፣ ማዕድ እና ፍጹም ደስታ የሚፈስበት፣ ጥንዶቹ በማህበረሰቡ ፊት የሚደምቁበት ታላቅ ክብረ በዓል።',
+    },
+    mels: {
+      name: 'መልስ',
+      desc: 'በሙሽራው ቤተሰብ የሚዘጋጅ እና ሙሽሪትን ወደ አዲሱ ቤተሰቧ በይፋ የሚቀበሉበት ድንቅ ድግስ።',
+    },
+    kilkil: {
+      name: 'ቅልቅል',
+      desc: 'ሁለቱን ቤተሰቦች ይበልጥ በሚያቀራርብ ዘና ባለ መንፈስ የሚካሄድ የድህረ-ሰርግ አስደሳች መሰባሰብ።',
+    },
+    nikah: {
+      name: 'ኒካህ',
+      desc: 'የጋብቻው መንፈሳዊ መሠረት የሆነው የተቀደሰ የእስልምና የጋብቻ ሥነ-ሥርዓት በዱዓ እና በቡራኬ የሚከናወንበት ስርዓት።',
+    },
+    henna: {
+      name: 'የሂና ቀን',
+      desc: 'የሙሽሪት እጆችና እግሮች በውብ የሂና ቅርጾች የሚሸለሙበት፣ በሴቶች ዜማና ደስታ የሚደምቅ ድንቅ የቅድመ-ሰርግ ዝግጅት።',
+    },
+  },
+  servicesList: {
+    'Church ceremony coordination': 'የቤተክርስቲያን ሥነ-ሥርዓት ቅንጅት',
+    'Reception planning and management': 'የድግስ አዳራሽ ዕቅድና አስተዳደር',
+    'Venue selection and booking': 'የአዳራሽ/ቦታ ምርጫና ምዝገባ',
+    'Décor and floral design': 'የአበባና አዳራሽ ዲኮር ዲዛይን',
+    'Photography and videography coordination': 'የፎቶና ቪዲዮ ባለሙያዎች ቅንጅት',
+    'Music and entertainment': 'ሙዚቃና መዝናኛ ዝግጅት',
+    'Catering coordination': 'የምግብና መጠጥ አገልግሎት ቁጥጥር',
+    'Wedding party coordination': 'የሚዜዎችና ቤተሰብ ቅንጅት',
+    'Timeline and logistics management': 'የሰዓት አጠቃቀምና የሎጂስቲክስ አስተዳደር',
+    'Day-of coordination': 'በሰርጉ ቀን የሚደረግ ሙሉ ክትትል',
+    'Custom theme and concept development': 'ብጁ የዲዛይንና የጽንሰ-ሀሳብ ዝግጅት',
+    'Styling and décor coordination': 'የዲኮርና የስታይል ቅንጅት',
+    'Venue planning and selection': 'የቦታ ዕቅድና ምርጫ',
+    'Entertainment and music coordination': 'የመዝናኛና ሙዚቃ አስተዳደር',
+    'Catering and menu design': 'የምግብ ዝርዝር ዲዛይንና ቁጥጥር',
+    'Floral design and arrangements': 'የአበባ አደረጃጀትና ዝግጅት',
+    'Guest management and RSVPs': 'የእንግዶች አቀባበልና አስተዳደር',
+    'Timeline and logistics': 'የጊዜ ሰሌዳና ሎጂስቲክስ',
+    'Local and international destination planning': 'የሀገር ውስጥና የውጭ ሀገር የጉዞ ዕቅድ',
+    'Destination and venue selection': 'የመድረሻ ቦታና ሆቴል ምርጫ',
+    'Travel and accommodation coordination': 'የጉዞና የእንግዶች ማረፊያ ቅንጅት',
+    'Guest coordination and logistics': 'የእንግዶች መስተንግዶና ጉዞ ቁጥጥር',
+    'Event scheduling and timeline': 'የዝግጅቶች የጊዜ ሰሌዳ',
+    'Décor and styling for the venue': 'ለተመረጠው ቦታ ተስማሚ ዲኮር',
+    'Personalized consultations': 'ቀጣይነት ያለው ግላዊ ምክክር',
+    'Vendor sourcing at destination': 'በመድረሻው ቦታ አገልግሎት ሰጪዎችን ማፈላለግ',
+    'Day-of on-site coordination': 'በቦታው ላይ የሚደረግ የዕለቱ ክትትል',
+    'Post-wedding celebration planning': 'የድህረ-ሰርግ መዝናኛ ዝግጅቶች',
+    'Civil ceremony planning and coordination': 'የሲቪል ጋብቻ ሥርዓት ዕቅድና ቅንጅት',
+    'Registry ceremony coordination': 'የውል ምዝገባ ሥርዓት ቅንጅት',
+    'Venue selection for the ceremony': 'ለሥነ-ሥርዓቱ ተስማሚ ቦታ መምረጥ',
+    'Simple and elegant décor': 'ቀላልና ማራኪ ዲኮር',
+    'Photography coordination': 'የፎቶግራፍ አገልግሎት ቅንጅት',
+    'Optional reception planning': 'አማራጭ የምሳ/የእራት ድግስ ዕቅድ',
+    'Personalized planning consultations': 'ግላዊ የዕቅድ ምክክር',
+    'Guest management': 'የእንግዶች አያያዝ',
+    'Personalized service selection': 'የተመረጡ አገልግሎቶች ስብስብ',
+    'Multi-tradition and multicultural planning': 'የተለያዩ ባህሎችና ወጎች ጥምረት ዕቅድ',
+    'Custom event design and concept': 'ብጁ የክስተት ጽንሰ-ሀሳብና ዲዛይን',
+    'Flexible budget planning': 'ተለዋዋጭ የበጀት አመዳደብ',
+    'Vendor coordination': 'የአገልግሎት ሰጪዎች ቅንጅት',
+    'Décor, floral, and styling': 'ዲኮር፣ አበባ እና ዲዛይን',
+    'Photography and videography': 'ፎቶግራፍና ቪዲዮግራፊ',
+    'Catering and entertainment': 'ምግብ፣ መጠጥና መዝናኛ',
+    'Full or partial planning options': 'ሙሉ ወይም ከፊል የማቀድ አማራጮች',
+  },
+  inquiryForm: {
+    pageTitle: 'የሰርግ ቀንዎን ያቅዱ',
+    pageSubtitle:
+      'ስለ ሰርግዎ ራዕይ ይንገሩን፤ እኛም በዝርዝር ሀሳቦች፣ የፓኬጅ አማራጮችና ቀጣይ እርምጃዎች በፍጥነት እናገኝዎታለን።',
+    coupleNames: 'የሙሽሮች ስም',
+    coupleNamesPlaceholder: 'ለምሳሌ፡ አልማዝና ዳዊት',
+    email: 'ኢሜይል አድራሻ',
+    emailPlaceholder: 'your.email@example.com',
+    phone: 'ስልክ ቁጥር',
+    phonePlaceholder: '+251 ... ወይም ስልክ ቁጥርዎ',
+    weddingCategory: 'የሰርግ ዓይነት',
+    selectCategory: 'የሰርግ ዓይነት ይምረጡ',
+    preferredPackage: 'ተመራጭ ፓኬጅ',
+    selectPackage: 'ፓኬጅ ወይም የዕቅድ ዓይነት ይምረጡ',
+    weddingDate: 'የታሰበው የሰርግ ቀን',
+    cityOrVenue: 'ከተማ ወይም የተመረጠ አዳራሽ',
+    cityOrVenuePlaceholder: 'ለምሳሌ፡ አዲስ አበባ፣ ቢሾፍቱ፣ ወይም የውጭ ሀገር',
+    estimatedGuests: 'የእንግዶች ግምታዊ ብዛት',
+    selectGuests: 'የእንግዶችን ብዛት ይምረጡ',
+    eventsSupport: 'እገዛ የሚሹባቸው ዝግጅቶች',
+    budgetRange: 'ግምታዊ የበጀት መጠን',
+    selectBudget: 'የበጀት መጠን ይምረጡ',
+    preferredContactMethod: 'የመገናኛ ምርጫ',
+    selectContactMethod: 'እንዴት እንገናኝ ይምረጡ',
+    additionalNotes: 'ተጨማሪ ማስታወሻዎችና ራዕይዎ',
+    additionalNotesPlaceholder:
+      'ስለ ባህላዊ ወጎችዎ፣ ስለሚወዱት ስታይል፣ ስለ አዳራሽ ምርጫዎ ወይም ስላሉዎት ጥያቄዎች ይንገሩን...',
+    submitButton: 'የሰርግ መጠይቁን ይላኩ',
+    submittingButton: 'ጥያቄዎ በመላክ ላይ ነው...',
+    demoNotice: 'ሙከራ ሁነታ፡ መረጃዎች በብራውዘርዎ ውስጥ ይቀመጣሉ። ሙሉ ዝርዝሩን በREADME ይመልከቱ።',
+    successTitle: 'እናመሰግናለን!',
+    successMessage:
+      'የሰርግ መጠይቅዎ ደርሶናል። ልዩ ቀንዎን ማቀድ ለመጀመር በቅርቡ እናገኝዎታለን።',
+    demoNote:
+      'ይህ መረጃ በአሳሽዎ ውስጥ ተቀምጧል። ትክክለኛ ኢሜይል ለመቀበል የኢሜይል አገልግሎት ያገናኙ።',
+    submitAnother: 'ሌላ መጠይቅ ይላኩ',
+    errors: {
+      coupleNames: 'እባክዎ ስምዎን ያስገቡ',
+      email: 'እባክዎ ኢሜይልዎን ያስገቡ',
+      emailValid: 'እባክዎ ትክክለኛ ኢሜይል አድራሻ ያስገቡ',
+      phone: 'እባክዎ ስልክ ቁጥርዎን ያስገቡ',
+      category: 'እባክዎ የሰርግ ዓይነት ይምረጡ',
+      contactMethod: 'እባክዎ የመገናኛ መንገድ ይምረጡ',
+      general: 'ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ ወይም በቀጥታ ያግኙን።',
+    },
+    budgets: {
+      notSure: 'እስካሁን አልተወሰነም',
+      under50k: 'ከ 50,000 ብር በታች',
+      range50_100k: '50,000 – 100,000 ብር',
+      range100_250k: '100,000 – 250,000 ብር',
+      range250_500k: '250,000 – 500,000 ብር',
+      above500k: '500,000+ ብር',
+      preferNotToSay: 'መግለጽ አልፈልግም',
+    },
+    guests: {
+      notSure: 'እስካሁን አልተወሰነም',
+      under50: 'ከ 50 እንግዶች በታች',
+      range50_100: '50 – 100 እንግዶች',
+      range100_200: '100 – 200 እንግዶች',
+      range200_500: '200 – 500 እንግዶች',
+      above500: '500+ እንግዶች',
+    },
+    contactMethods: {
+      email: 'ኢሜይል',
+      phone: 'የስልክ ጥሪ',
+      whatsapp: 'ዋትስአፕ (WhatsApp)',
+    },
+  },
+  aboutPage: {
+    eyebrow: 'ስለ እኛ',
+    title: 'በባህል የጸና፤ ለዘመኑ የተዋበ።',
+    subtitle:
+      'ኬኤም (KM) ባህልን፣ ትስስርን እና የሁለት ቤተሰቦችን ውህደት ለማክበር የተቋቋመ የኢትዮጵያ የሰርግ ዝግጅት ብራንድ ነው።',
+    storyTitle: 'የኬኤም ታሪክ',
+    storyP1:
+      'የኢትዮጵያ ሰርግ ከአንድ ዝግጅት በላይ ነው — ለቀናት የሚዘልቅ ምርቃት፣ የሽምግልና ስምምነት፣ የማህበረሰብ ደስታ እና የወላጆች ወግ ድምር ነው። ይህንን ማቀድ አስተዳደራዊ ቅልጥፍና ብቻ ሳይሆን ጥልቅ ባህላዊ ግንዛቤና ለእያንዳንዱ ስርዓት ከልብ የመነጨ አክብሮት ይጠይቃል።',
+    storyP2:
+      'ኬኤም የተመሰረተው አንጋፋውን የኢትዮጵያ ባህል ከዘመናዊ የክብረ በዓል አደረጃጀት ጋር ለማጣመር ነው። ጥንዶቻችን በአዲስ አበባ የስድስት ዝግጅቶች ድግስ፣ በውጭ ሀገር የቤተክርስቲያን ቡራኬ ወይም የመዳረሻ ሰርግ ቢያቅዱ፣ እኛ እርጋታን፣ ፈጠራንና እንከን የለሽ አፈፃፀምን እናመጣለን።',
+    valuesTitle: 'መርሆዎቻችን',
+    value1Title: 'ባህላዊ እውነተኝነት',
+    value1Desc:
+      'የእያንዳንዱን የኢትዮጵያ ማህበረሰብ የተቀደሱ ስርዓቶች፣ ባህላዊ አልባሳት፣ ዜማዎችና ወጎች በከፍተኛ ክብርና ኩራት እናስከብራለን።',
+    value2Title: 'የተዋበ ዲዛይን',
+    value2Desc:
+      'እያንዳንዱ ሰርግ በረቀቀ ውበት፣ በተጣጣሙ ቀለሞችና የእርስዎን የግል የፍቅር ታሪክ በሚገልጹ ዝርዝሮች ይዘጋጃል።',
+    value3Title: 'የአእምሮ ሰላም',
+    value3Desc:
+      'ከተወሳሰበ የሽምግልና ቅንጅት ጀምሮ እስከ ዕለቱ እንከን የለሽ አፈፃፀም፣ እናንተና ቤተሰቦቻችሁ በነጻነት እንድትደሰቱ ውጥረቱን በሙሉ እኛ እንወስደዋለን።',
+    statsTitle: 'በቁጥሮች ሲገለጽ',
+    stat1Label: 'የከበሩ ባህላዊ ወጎች',
+    stat2Label: 'የተዘጋጁ ብጁ ፓኬጆች',
+    stat3Label: 'ሙሉ ሙያዊ እንክብካቤ',
+  },
+  contactPage: {
+    eyebrow: 'ያግኙን',
+    title: 'የሰርግዎን ዕቅድ አብረን እንጀምር',
+    subtitle:
+      'ስለ ፓኬጆች፣ ባህሎች ወይም ብጁ ዕቅድ ጥያቄዎች ካሉዎት በየደረጃው ልንመራዎት ዝግጁ ነን።',
+    infoTitle: 'የመገናኛ አድራሻ',
+    infoDesc: 'ውይይቱን ለመጀመር የዕቅድ ቡድናችንን ያግኙ።',
+    phoneLabel: 'ስልክና ዋትስአፕ',
+    emailLabel: 'ኢሜይል',
+    locationLabel: 'አድራሻ',
+    locationValue: 'አዲስ አበባ፣ ኢትዮጵያ እና በዓለም ዙሪያ',
+    hoursLabel: 'የምክክር ሰዓታት',
+    hoursValue: 'ከሰኞ – ቅዳሜ፡ ከጠዋቱ 3:00 – ምሽቱ 12:00',
+    faqTitle: 'ተደጋግመው የሚጠየቁ ጥያቄዎች',
+    faq1Q: 'ለሰርጋችን ከስንት ጊዜ በፊት ኬኤምን ማነጋገር አለብን?',
+    faq1A:
+      'በተለይም ለባህላዊ ወይም ከፍተኛ የሰርግ ወቅት ከ6 እስከ 12 ወራት አስቀድመው እንዲያነጋግሩን እንመክራለን። ሆኖም በአጭር ጊዜ ውስጥ የሚደረጉ ሰርጎችንም እንደሁኔታው እናስተናግዳለን።',
+    faq2Q: 'ኬኤም በውጭ ሀገር ለሚኖሩ ኢትዮጵያውያን ሰርግ ያዘጋጃል?',
+    faq2A:
+      'አዎ፣ በእርግጥ! አብዛኛዎቹ ደንበኞቻችን በሰሜን አሜሪካ፣ አውሮፓና መካከለኛው ምስራቅ የሚኖሩ ሆነው ወደ ሀገር ቤት ለሰርጋቸው የሚመጡ ወይም በመረጡት ሀገር የሚያገቡ ናቸው።',
+    faq3Q: 'ፍላጎታችን ከመደበኛው ፓኬጅ የተለየ ከሆነ ማስተካከል እንችላለን?',
+    faq3A:
+      'አዎ። የብጁ ሰርግ ዕቅድ አማራጫችን ከራዕይዎና ከበጀትዎ ጋር የሚስማሙትን ዝግጅቶች፣ አገልግሎቶችና ቅንጅቶች በትክክል እንዲመርጡ ያስችልዎታል።',
+    faq4Q: 'እንደ ኒካህ ወይም የቤተክርስቲያን ቡራኬ ያሉ ሃይማኖታዊ ስርዓቶችን ታስተባብራላችሁ?',
+    faq4A:
+      'አዎ። ለኦርቶዶክስ፣ ፕሮቴስታንት፣ ካቶሊክ እና እስላማዊ ጋብቻዎች ከሃይማኖት አባቶችና ሽማግሌዎች ጋር በመተባበር የተሟላ የማስተባበር ልምድ አለን።',
+  },
+  galleryPage: {
+    eyebrow: 'የስራዎቻችን ማህደር',
+    title: 'የሰርግ ፎቶዎች ስብስብ',
+    subtitle:
+      'የኢትዮጵያ የሰርግ ድግሶች፣ ባህላዊ ሥርዓቶች፣ የአዳራሽ ውበቶች እና ያዘጋጀናቸውን የማይረሱ አስደሳች ጊዜያት ያስሱ።',
+  },
+  notFound: {
+    title: 'ገጹ አልተገኘም',
+    message: 'የፈለጉት ገጽ አልተገኘም ወይም ወደ ሌላ ቦታ ተዛውሯል።',
+    button: 'ወደ ዋናው ገጽ ይመለሱ',
+  },
+  footer: {
+    tagline1: 'ከአዘጋጅነት በላይ፤',
+    tagline2: 'የታሪክዎ አጋር ነን።',
+    navigation: 'አሰሳ',
+    packages: 'ፓኬጆች',
+    getInTouch: 'ያግኙን',
+    contactUs: 'አድራሻችን',
+    planYourWedding: 'ሰርግዎን ያቅዱ',
+    allRightsReserved: 'ኬኤም የሰርግ አዘጋጅ። መብቱ በህግ የተጠበቀ ነው።',
+  },
+};
